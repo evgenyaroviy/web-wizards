@@ -5,6 +5,8 @@
   |============================
 */
 
+/* utils */
+@import url('./utils/varibles.css');
 /* base */
 @import url('./base/reset.css');
 @import url('./base/common.css');
@@ -12,7 +14,7 @@
 /* components */
 @import url('./components/container.css');
 
-/* main page */
+/* layout */
 @import url('./layout/header.css');
 @import url('./layout/hero.css');
 @import url('./layout/about.css');
@@ -23,6 +25,7 @@
 @import url('./layout/footer.css');
 @import url('./layout/header.css');
 
+/* pages */
 /* hotel page */
 @import url('./layout/pages/hotel/hero.css');
 @import url('./layout/pages/hotel/double.css');

@@ -2,18 +2,77 @@
   <section class="hero-room">
     <div class="hero-room-section">
     <div class="hero-room-txt">
-    <h2 class="hero-room-text" >DOUBLE <span class="hero-room-styl"> LUXURY</span> ROOM</h2>
+    <h1 class="hero-room-text" >DOUBLE <span class="hero-room-styl"> LUXURY</span> ROOM</h1>
     <button class="hero-room-btn">View prices</button>
     
     
     </div>
-
+  <div class="room-vector">
     <ul class="room-img hero-room-img">
-        <li class="" > <img src="./img/room-hero.img/imagesm1x.jpg" alt="" ></li>
-        <li class="" > <img src="./img/room-hero.img/imagesm1@1x.jpg" alt="" ></li>
+        <li class="" > 
+          <picture>
+        <source 
+        media="(min-width: 1144px)"
+        srcset="
+        ./img/room-hero.img/imagebg@1x.jpg 1x,
+        ./img/room-hero.img/imagebg@2x.jpg 2x"
+         />
+         <source 
+        media="(min-width: 768px)"
+        srcset="
+        ./img/room-hero.img/imagel@g1x.jpg 1x,
+        ./img/room-hero.img/imagelg@2x.jpg 2x"
+         />
+         <source 
+        media="(max-width: 767px)"
+        srcset="
+        ./img/room-hero.img/imagesm@1x.jpg 1x,
+        ./img/room-hero.img/imagesm@2x.jpg 2x"
+         />
+          <img src=" ./img/room-hero.img/imagebg@1x.jpg 1x" 
+               alt="room" 
+           width="436"
+           height="580"/>
+          </picture>
+          
+        </li>
+        <li class="" > <picture>
+        <source 
+        media="(min-width: 1144px)"
+        srcset="
+        ./img/room-hero.img/imagebg1@1x.jpg 1x,
+        ./img/room-hero.img/imagebg1@2x.jpg 2x"
+         />
+         <source 
+        media="(min-width: 768px)"
+        srcset="
+        ./img/room-hero.img/imagelg1@1x.jpg 1x,
+        ./img/room-hero.img/imagelg1@2x.jpg 2x"
+         />
+         <source 
+        media="(max-width: 767px)"
+        srcset="
+        ./img/room-hero.img/image1@1x.jpg 1x,
+        ./img/room-hero.img/image1@2x.jpg 2x"
+         />
+          <img src=" ./img/room-hero.img/imagebg1@1x.jpg 1x" 
+               alt="kitchen" 
+           width="436"
+           height="580"/>
+          </picture>
+          </li>
+    </ul>
+    <ul class="room-list-button">
+      <li><button class="room-button"><svg  width="36" height="36">
+                <use href="./img/room-hero.img/symbol.svg#Vector" ></use>
+              </svg></button></li>
+      <li><button class="room-button"><svg width="36" height="36">
+                <use href="./img/room-hero.img/symbol.svg#Vector-1"  ></use>
+              </svg></button></li>
     </ul>
     </div>
-    <p class="hero-room-sub" >The Mimino hotel features spacious <br> and stylish  luxury rooms <br> with modern amenities for a <br> comfortable stay.</p>
+    </div>
+    <p class="hero-room-sub" >The Mimino hotel features spacious and stylish  luxury rooms with modern amenities for a comfortable stay.</p>
      </div>
  
 

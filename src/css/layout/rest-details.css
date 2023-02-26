@@ -1,0 +1,99 @@
+* {
+  margin: 0;
+}
+body {
+  background: #d8d8d8;
+}
+
+.container {
+  margin: 0 auto;
+}
+
+.section {
+  margin-left: 0;
+}
+
+.buttons {
+  display: flex;
+  gap: 32px;
+  bottom: 0;
+  justify-content: right;
+}
+
+.button {
+  background-color: rgba(0, 125, 215, 0);
+  border: none;
+  padding: 0;
+}
+
+.svg {
+  fill: #121212;
+}
+
+.slider {
+  margin: 0 auto 24px;
+  overflow: hidden;
+}
+
+.slider-line {
+  display: flex;
+  position: relative;
+  left: 0;
+  transition: all ease 1s;
+}
+
+.slide {
+  width: 250px !important;
+  height: 429px !important;
+  margin-right: 20px;
+}
+
+@media screen and (min-width: 375px) {
+    .container {
+        max-width: 375px;
+        padding: 0 20px;
+        margin: 0 auto;
+
+    }
+}
+
+@media screen and (min-width: 768px) {
+  .container {
+    max-width: 768px;
+    padding: 0 32px;
+  }
+
+  .slider {
+    margin: 0 auto 40px;
+  }
+
+  .slide {
+    width: 436px !important;
+    height: 548px !important;
+    margin-right: 32px;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .container {
+    max-width: 1440px;
+  }
+
+  .section {
+    margin-left: 705px;
+  }
+
+  .slider {
+    margin: 0 auto 16px;
+    width: 703px;
+  }
+
+  .buttons {
+    justify-content: left;
+  }
+
+  .slide {
+    width: 436px !important;
+    height: 580px !important;
+  }
+}

@@ -1,0 +1,18 @@
+<svg aria-hidden="true" style="position: absolute; width: 0; height: 0; overflow: hidden;" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<defs>
+<symbol id="icon-Icon" viewBox="0 0 46 32">
+<path stroke-linejoin="round" stroke-linecap="round" stroke-miterlimit="4" stroke-width="3.5556" d="M1.778 16h42.667M1.778 1.778h42.667M1.778 30.222h28.444"></path>
+</symbol>
+<symbol id="icon-instagram" viewBox="0 0 32 32">
+<path stroke-linejoin="round" stroke-linecap="round" stroke-miterlimit="4" stroke-width="2.0800" d="M22.666 2.666h-13.333c-3.682 0-6.667 2.985-6.667 6.667v13.333c0 3.682 2.985 6.667 6.667 6.667h13.333c3.682 0 6.667-2.985 6.667-6.667v-13.333c0-3.682-2.985-6.667-6.667-6.667z"></path>
+<path stroke-linejoin="round" stroke-linecap="round" stroke-miterlimit="4" stroke-width="2.0800" d="M21.334 15.16c0.165 1.11-0.025 2.243-0.542 3.239s-1.334 1.803-2.336 2.308c-1.002 0.504-2.138 0.68-3.245 0.502s-2.131-0.701-2.924-1.494c-0.793-0.793-1.316-1.816-1.494-2.924s-0.003-2.243 0.502-3.245 1.312-1.819 2.308-2.336c0.996-0.517 2.129-0.706 3.239-0.542 1.132 0.168 2.18 0.695 2.989 1.504s1.336 1.857 1.504 2.989z"></path>
+<path stroke-linejoin="round" stroke-linecap="round" stroke-miterlimit="4" stroke-width="2.0800" d="M23.334 8.666h0.016"></path>
+</symbol>
+<symbol id="icon-facebook" viewBox="0 0 20 32">
+<path stroke-linejoin="round" stroke-linecap="round" stroke-miterlimit="4" stroke-width="2.3111" d="M17.779 1.184h-4.445c-1.965 0-3.849 0.78-5.238 2.17s-2.17 3.273-2.17 5.238v4.444h-4.444v5.926h4.444v11.852h5.926v-11.852h4.444l1.482-5.926h-5.926v-4.444c0-0.393 0.156-0.77 0.434-1.048s0.655-0.434 1.048-0.434h4.445v-5.926z"></path>
+</symbol>
+<symbol id="icon-twitter" viewBox="0 0 36 32">
+<path stroke-linejoin="round" stroke-linecap="round" stroke-miterlimit="4" stroke-width="2.3111" d="M34.075 2.668c-1.419 1.001-2.989 1.766-4.652 2.267-0.892-1.026-2.078-1.753-3.397-2.083s-2.707-0.247-3.978 0.238-2.361 1.348-3.125 2.473c-0.764 1.125-1.163 2.457-1.145 3.817v1.481c-2.604 0.068-5.183-0.51-7.51-1.681s-4.327-2.899-5.824-5.030c0 0-5.926 13.333 7.407 19.259-3.051 2.071-6.686 3.11-10.37 2.963 13.333 7.407 29.63 0 29.63-17.037-0.001-0.413-0.041-0.824-0.118-1.23 1.512-1.491 2.579-3.374 3.081-5.437z"></path>
+</symbol>
+</defs>
+</svg>

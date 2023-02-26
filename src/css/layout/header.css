@@ -1,29 +1,122 @@
+
 .header {
   padding: 20px 0;
   background-color: #121212;
-    color: #F6F6F6;
-  }
-  
-  .revers {
-    background-color: #F7F7F7;
-    color: #121212;
+  border-bottom: 0.5px solid rgba(247, 247, 247, 0.2);
+  position: relative;
+
+
 }
 
-.nav-list {
+.nav {
   display: flex;
-  align-items: center;
-  justify-content: flex-end;
-  gap: 40px;
-  
+  justify-content: space-between;
 }
 
-.nav-link {
-  font-weight: 500;
-  letter-spacing: 0.02em;
-  line-height: 1.5;
+.header-menu-list {
+  display: none;
+  gap: 32px;
 }
 
-.nav-link:hover,
-.nav-link:focus {
-  color: #747bff;
+.header-menu-link {
+font-weight: 400;
+font-size: 14px;
+line-height: calc(18px/14px);
+letter-spacing: 0.05em;
+text-transform: uppercase;
+color: #F7F7F7;
+
+}
+
+.button-mob {
+  background-color: transparent;
+  border: none;
+}
+.menu-svg {
+
+  stroke: #F7F7F7;
+}
+
+.logo {
+position: absolute;
+top: 50%;
+left: 50%;
+margin-right: -50%;
+transform: translate(-50%, -50%);
+font-weight: 500;
+font-size: 14px;
+line-height: calc(14px/22px);
+letter-spacing: 0.18em;
+text-transform: uppercase;
+color: #F7F7F7;
+display: flex;
+flex-direction: column;
+align-items: center;
+
+}
+.logo-text {
+font-weight: 400;
+font-size: 6px;
+line-height:calc(6px/8px);
+letter-spacing: 0.18em;
+text-transform: uppercase;
+margin-top: 3px;
+color: #D8D7D7;
+}
+.header-list{
+  display: none;
+}
+
+.header-item {
+
+}
+
+.header-soc-svg {
+  stroke: currentColor;
+}
+
+
+@media screen and (min-width: 375px) {
+}
+
+@media screen and (min-width: 768px) {
+  .nav {
+    justify-content: space-between;
+  }
+  .header-list {
+    display: flex;
+    gap: 21px;
+  }
+
+  .logo {
+    font-size: 20px;
+    line-height: calc(20px/24px);
+  }
+
+  .logo-text{
+    font-size: 8px;
+    line-height: calc(8px/10px);
+
+  }
+
+  .header-link-svg {
+  }
+
+    .header-soc-svg {
+      width: 20px;
+      height: 20px;
+      stroke: #F7F7F7;
+      
+    }
+
+
+}
+
+@media screen and (min-width: 1440px) {
+.header-menu-list {
+    display: flex;
+  }
+  .button-mob {
+display: none;
+  }
 }

@@ -5,7 +5,6 @@
   border-bottom: 0.5px solid rgba(247, 247, 247, 0.2);
   position: relative;
 
-
 }
 
 .nav {
@@ -67,9 +66,6 @@ color: #D8D7D7;
   display: none;
 }
 
-.header-item {
-
-}
 
 .header-soc-svg {
   stroke: currentColor;
@@ -108,15 +104,32 @@ color: #D8D7D7;
       stroke: #F7F7F7;
       
     }
-
-
 }
 
 @media screen and (min-width: 1440px) {
+.header{
+background-color: transparent;
+position: absolute;
+width: 100%;
+top: 0;
+left: 0;
+padding: 27px 32px;
+}
+
+.nav{
+justify-content: space-between;
+}
+
 .header-menu-list {
     display: flex;
   }
   .button-mob {
 display: none;
   }
+
+.header-soc-svg {
+stroke: #F6F6F6;
+fill: transparent;
+}
+
 }

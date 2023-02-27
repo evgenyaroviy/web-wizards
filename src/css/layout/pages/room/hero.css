@@ -2,23 +2,21 @@
    display: flex;
    flex-direction: column;
    align-items: flex-start;
-    padding-top: 40px;
-    padding-left:20px ;
+    padding: 40px 0;
+    padding-left:20px;
     background: #F7F7F7;
 }
 
 .hero-room-text{
 font-family: 'DM Sans';
 font-style: normal;
-width: 270;
 font-weight: 400;
 font-size: 40px;
 line-height: calc(40/40);
 letter-spacing: -0.02em;
 text-transform: uppercase;
-
+padding-right: 40px;
 color: #121212;
-margin: 0;
 
 margin-bottom: 24px;
 }
@@ -30,13 +28,15 @@ margin-bottom: 24px;
 font-style: italic;
 }
 .hero-room-btn{
-width: 117px;
+width: 131px;
 height: 34px;
 cursor: pointer;
 border: none;
 
-border: 0.8px solid #121212;
+border: 0.8px solid #F7F7F7;
 border-radius: 32px;
+background-color: #121212;
+color: #F7F7F7;
 
 font-family: 'DM Sans';
 font-style: normal;
@@ -45,8 +45,13 @@ font-size: 14px;
 line-height: calc(18/14);
 letter-spacing: -0.02em;
 text-transform: uppercase;
-color: #121212;
 margin-bottom: 40px;
+}
+.hero-room-btn:hover,
+.hero-room-btn:focus{
+    background: #FFFFFF;
+    border: 0.8px solid #F7F7F7;
+    color: #121212;
 }
 
 .hero-room-sub{
@@ -93,11 +98,11 @@ width: 289px;
         padding-top: 40px;  
     }
     .hero-room-text{
+    padding-right: 250px;
     width: 406;
     font-size: 60px;
     line-height: calc(60/60);
     margin-bottom: 18px;
-    padding-right: 200px;
 }
     .hero-room-btn{
     width: 129px;

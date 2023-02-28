@@ -15,14 +15,12 @@
 }
 
 .google-map {
-  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  box-shadow: -14px 24px 68px -16px rgba(0, 0, 0, 0.12);
   filter: grayscale(100%);
   margin-bottom: 32px;
 }
 
 .fact-adress {
-  font-style: normal;
-  font-weight: 400;
   font-size: 18px;
   line-height: calc(24 / 18);
   text-transform: uppercase;
@@ -41,8 +39,6 @@ margin-bottom: 12px;
 
 .phone-number {
 display: block;
-font-weight: 400;
-font-style: normal;
 font-size: 18px;
 line-height: calc(24 / 18);
 letter-spacing: -0.02em;
@@ -81,6 +77,10 @@ color: #121212;
       display: flex;
       justify-content: space-between;
     }
+.google-map {
+  width: 704px;
+  height: 576px;
+}
 }
 
 @media screen and (min-width: 1440px) {
@@ -93,23 +93,27 @@ color: #121212;
   .location-adress {
     padding-top: 100px;
     padding-bottom: 105px;
-    position: relative;
-  
   }
 
   .location-title {
     margin-left: 736px;
     align-items: flex-start;
-    margin-bottom: 399px;
+    
   }
 
 .google-map{
-position: absolute;
-top:0;
-padding-top: 100px;
+margin-top: -100px;
 margin-bottom: 0;
+width: 704px;
+  height: 576px;
 }
 
+.location-adress-phone {
+  display: flex;
+  justify-content: start;
+  gap: 70px;
+  margin-top: -50px;
+}
 .phone-number {
   display: flex;
   gap: 12px;

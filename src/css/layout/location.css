@@ -1,0 +1,130 @@
+.location-adress {
+  padding-top: 80px;
+  padding-bottom: 80px;
+}
+
+.location-title {
+  font-weight: 500;
+  font-size: 68px;
+  line-height: calc(68 / 68);
+  letter-spacing: -0.02em;
+  text-transform: uppercase;
+  color: #121212;
+  max-width: 324px;
+  margin-bottom: 40px;
+}
+
+.google-map {
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  filter: grayscale(100%);
+  margin-bottom: 32px;
+}
+
+.fact-adress {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: calc(24 / 18);
+  text-transform: uppercase;
+  margin-bottom: 28px;
+}
+
+.call-us {
+font-weight: 500;
+font-size: 14px;
+line-height: calc(18 / 14);
+letter-spacing: -0.02em;
+text-transform: uppercase;
+color: #121212;
+margin-bottom: 12px;
+}
+
+.phone-number {
+display: block;
+font-weight: 400;
+font-style: normal;
+font-size: 18px;
+line-height: calc(24 / 18);
+letter-spacing: -0.02em;
+text-transform: uppercase;
+color: #121212;
+}
+
+.container {
+    width: 100%;
+    padding: 0 20px;
+    margin: 0 auto;
+}
+  
+@media screen and (min-width: 375px) {
+  .container {
+          max-width: 375px;
+          margin: 0 auto;
+  }
+  }
+
+
+  @media screen and (min-width: 768px) {
+    .container {
+        max-width: 768px;
+        padding: 0 32px;
+        margin: 0 auto;
+    }
+
+    .fact-adress {
+      padding-top: 16px;
+      padding-bottom: 16px;
+      margin-bottom: 0;
+    }
+
+    .location-adress-phone {
+      display: flex;
+      justify-content: space-between;
+    }
+}
+
+@media screen and (min-width: 1440px) {
+  .container {
+      max-width: 1440px;
+      padding: 0 64px;
+      margin: 0 auto;
+  }
+
+  .location-adress {
+    padding-top: 100px;
+    padding-bottom: 105px;
+    position: relative;
+  
+  }
+
+  .location-title {
+    margin-left: 736px;
+    align-items: flex-start;
+    margin-bottom: 399px;
+  }
+
+.google-map{
+position: absolute;
+top:0;
+padding-top: 100px;
+margin-bottom: 0;
+}
+
+.phone-number {
+  display: flex;
+  gap: 12px;
+  align-items: flex-start;
+
+}
+.call-us {
+  margin-bottom: 0;
+  }
+
+  .fact-adress {
+    margin-left: 736px;
+    padding-top: 0;
+    padding-bottom: 0;
+  }
+
+
+}

@@ -33,3 +33,13 @@ img {
   max-width: 100%;
   height: auto;
 }
+
+select {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+}
+
+select::-ms-expand {
+  display: none;
+}

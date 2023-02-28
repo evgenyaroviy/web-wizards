@@ -1,14 +1,11 @@
-/* Стили для подложки */
-
+@media screen and (min-width: 375px) {
 .overlay {
-
-    /* Скрываем подложку  */
     opacity: 0;
     visibility: hidden;
-
+    
     position: fixed;
     top: 0;
-    left: 0;
+    right: 0;
     width: 100%;
     height: 100%;
     background-color: rgba(0, 0, 0, .5);
@@ -16,48 +13,29 @@
     transition: .3s all;
 }
 
-/* Стили для модальных окон */
-
 .modal {
-
-    /* Скрываем окна  */
     opacity: 0;
     visibility: hidden;
-
-    /*  Установаем ширину окна  */
-    width: 100%;
-    max-width: 628px;
-
-    /*  Центрируем и задаем z-index */
+    width: 335px;
     position: fixed;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
     z-index: 30;
-    /* Должен быть выше чем у подложки*/
-
-    /*  Побочные стили   */
-    box-shadow: 0 3px 10px -.5px rgba(0, 0, 0, .2);
-    padding: 32px 32px 60px 32px;
-    border-radius: 3px;
-    background-color: #121212;
-    color: #F6F6F6;
+    padding: 24px 24px 40px 24px;
+        border-radius: 2px;
+        background-color: var(--main-dark-color);
+        color: var(--main-light-color);
     transition: 0.3s all;
-}
-
-.form {
-    display: flex;
-    flex-direction: column;
 }
 
 .modal__title {
     font-weight: 500;
-    font-size: 36px;
-    line-height: calc(40/36);
+    font-size: 28px;
+        line-height: calc(38/28);
     letter-spacing: -0.02em;
     text-transform: uppercase;
-
-    margin-bottom: 60px;
+    margin-bottom: 40px;
 }
 
 .italic {
@@ -69,44 +47,51 @@
     line-height: calc(12/8);
     letter-spacing: 0.18em;
     text-transform: uppercase;
-
     color: #D8D7D7;
 }
 
+.modal-input {
+    margin-bottom: 32px;
+}
+
+.modal-select {
+    margin-bottom: 40px;
+}
 .modal-input,
 .modal-select {
     display: flex;
-    align-items: baseline;
+    width: 287px;
+        flex-flow: column wrap;
     gap: 32px;
 }
 
-.modal-input {
-    margin-bottom: 40px;
-
+.tel-wrap {
+    order: 2;
 }
 
-.modal-select {
-    margin-bottom: 60px;
+.select-wrap {
+    order: 1;
 }
 
 .info,
 .info-select {
-
+    display: inline-block;
     padding: 0px 0px 18px 0px;
-    width: 266px;
+    width: 287px;
     height: 36px;
 
     background-color: transparent;
     border: none;
     border-bottom: 0.8px solid rgba(247, 247, 247, 0.2);
     outline: transparent;
-    color: #f7f7f7;
+    color: var(--main-modal-color);
 
     font-weight: 500;
     font-size: 14px;
     line-height: calc(18/14);
     letter-spacing: -0.02em;
     text-transform: uppercase;
+    padding-left: 5px;
     margin-bottom: 8px;
 }
 
@@ -119,7 +104,7 @@
     text-transform: uppercase;
     margin-bottom: 18px;
 
-    color: #F7F7F7;
+    color: var(--main-modal-color);
 }
 
 .select-text {
@@ -127,15 +112,26 @@
     font-size: 14px;
     line-height: calc(18/14);
     letter-spacing: -0.02em;
-    text-transform: uppercase;
-    background-color: #121212;
+    background-color: var(--main-dark-color);
+        color: var(--main-light-color);
+    }
 
-    color: #F7F7F7;
+.select-wrap {
+    position: relative;
 }
 
-
-
-/* Стили для активных классов подложки и окна */
+.select-arrow::after {
+    z-index: -1;
+    content: "";
+    position: absolute;
+    top: 10%;
+    right: 5px;
+    width: 20px;
+    height: 20px;
+    background: url(../../../../img/select-arrow.svg);
+    background-position: center;
+    background-repeat: no-repeat;
+}
 
 .modal.active,
 .overlay.active {
@@ -143,21 +139,21 @@
     visibility: visible;
 }
 
-
 /* Стили для кнопки закрытия */
 
 .modal__cross {
-    width: 14px;
-    height: 14px;
+    width: 28px;
+        height: 28px;
     position: absolute;
     top: 20px;
     right: 20px;
-    fill: #F6F6F6;
+    background-image: url(../../../../img/close-mob.svg);
+        background-color: transparent;
+        background-position: center;
+        border: transparent;
+        fill: var(--main-light-color);
     cursor: pointer;
 }
-
-
-/* Стили для кнопок. Мы ведь порядочные разработчики, негоже простые ссылки оставлять */
 
 .modal-open a {
     padding: 20px;
@@ -172,123 +168,101 @@
 .btn-info {
     display: flex;
     justify-content: center;
-
-    font-size: 18px;
-    line-height: calc(24/18);
+width: 235px;
+    font-size: 14px;
+    line-height: calc(18/14);
     letter-spacing: -0.02em;
     text-transform: uppercase;
-    color: #F7F7F7;
-    padding: 14px 133px;
-
-
-    border: 0.8px solid #F7F7F7;
+color: var(--main-modal-color);
+    padding: 14px 48px;
+    border: 0.8px solid var(--main-modal-color);
     border-radius: 32px;
-    background-color: transparent;
+    background-color: var(--main-dark-color);
+        margin: 0 auto;
+        cursor: pointer;
+        transition: border 0.8px solid var(--hover-time),
+            color var(--hover-time) background-color var(-hover-time);
+}
+
+.btn-info:hover,
+.btn-info:focus {
+    background-color: var(--main-light-color);
+    color: var(--main-dark-color);
+    border: 0.8px solid var(--main-dark-color);
+}
+
+.js-open-modal {
+    width: 20px;
+    height: 20px;
+}
+
 }
 
 
+@media screen and (min-width: 768px) {
 
+    .modal {
+            width: 628px;
+            padding: 32px 32px 60px 32px;
+            }
 
-
-
-
-/* .backdrop {
-    position: fixed;
-    top: 0;
-    width: 100%;
-    height: 100%;
-    background-color: rgba(48, 48, 48, 0.518);
-    transition: opacity 200ms linear, visibility 200ms linear;
-}
-
-.is-hidden {
-    opacity: 0;
-    visibility: hidden;
-    pointer-events: none;
-}
-
-.form {}
-
-
-.modal {
-    position: absolute;
-    top: 50%;
+.info,
+.info-select {
     display: flex;
-    flex-direction: column;
-    width: 628px;
-    height: 476px;
-
-    background-color: #121212;
-    color: #F6F6F6;
-
+    width: 266px;
 }
 
 .modal-input {
-    display: flex;
+    margin-bottom: 40px;
 }
 
 .modal-select {
+    margin-bottom: 80px;
+}
+
+.modal-input,
+.modal-select {
     display: flex;
-} */
+    width: 266px;
+        flex-flow: inherit;
+    }
 
-/* .online {
-    width: calc(50% + 15px);
-    padding-top: 130px;
-    padding-bottom: 120px;
-    padding-right: 30px;
+.tel-wrap {
+    order: 1;
 }
 
-.online-form {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
+.select-wrap {
+    order: 2;
 }
 
-.online-title {
-    color: var(--main-title-color);
-    margin-bottom: 44px;
-}
-
-.online-item {
-    background-color: transparent;
-    border: none;
-    border-bottom: 1px solid rgba(157, 164, 189, 0.4);
-    outline: transparent;
-    color: #f7f7f7;
-    font-size: 11px;
-}
-
-.online-item:focus {
-    border-color: #ffffff;
-}
-
-.online-item::placeholder {
-    font-weight: 600;
-    font-size: 11px;
-    line-height: 1.36;
-    letter-spacing: 0.1em;
-    text-transform: uppercase;
-    color: rgba(157, 164, 189, 0.4);
-}
-
-.online-item:focus::placeholder {
-    color: #ffffff;
-}
-
-.online-input {
-    width: 270px;
+.modal__cross {
+    width: 24px;
     height: 24px;
-    margin-bottom: 44px;
-    padding-bottom: 8px;
+    position: absolute;
+    top: 32px;
+    right: 32px;
+    background-image: url(../../../../img/close.svg);
 }
 
-.online-text {
-    width: 100%;
-    height: 76px;
-    resize: none;
-    margin-bottom: 44px;
+.modal__title {
+    font-size: 36px;
+    line-height: calc(40/36);
+    margin-bottom: 60px;
 }
 
-.online-btn {
-    color: var(--main-btn-color);
-} */
+.btn-info {
+    width: 399px;
+    font-size: 14px;
+    line-height: calc(24/14);
+    padding: 14px 133px;
+}
+
+}
+
+@media screen and (min-width: 1440px) {
+
+    .btn-info {
+        width: 444px;
+}
+
+}

@@ -1,0 +1,139 @@
+* {
+  margin: 0;
+}
+body {
+  background: #d8d8d8;
+}
+
+.rest-details {
+  margin-bottom: 100px;
+}
+
+.container {
+  margin: 0 auto;
+}
+
+.section {
+  margin-left: 0;
+}
+
+.slider-section > .slick-arrow {
+  width: 24px;
+  height: 24px;
+  background-color: transparent;
+  z-index: 99;
+  font-size: 0;
+  background-position: center;
+}
+
+.slider-section > .slick-prev {
+  top: 111.5%;
+  left: 0;
+  background-image: url(../../img/test-img/prev.svg);
+  opacity: 1;
+}
+
+.slider-section > .slick-next {
+  top: 111.5%;
+  right: 80%;
+  background-image: url(../../img/test-img/next.svg);
+  opacity: 1;
+}
+
+.slider-section > .slick-prev:before,
+.slider-section > .slick-next:before {
+  color: transparent;
+  display: block;
+  width: 5px;
+  height: 10px;
+}
+
+.slider-section > .slick-next:hover,
+.slider-section > .slick-next:focus {
+  opacity: 0.7;
+  background-image: url(../../img/test-img/next.svg);
+}
+
+.slider-section > .slick-prev:hover,
+.slider-section > .slick-prev:focus {
+  opacity: 0.7;
+  background-image: url(../../img/test-img/prev.svg);
+}
+
+.slider-section {
+  display: flex;
+  position: relative;
+  left: 0;
+  transition: all ease 1s;
+  width: 335px;
+}
+
+.rest-slide {
+  width: 157px;
+  height: 201px;
+  margin-right: 20px;
+}
+
+@media screen and (min-width: 375px) {
+  .container {
+    max-width: 375px;
+    padding: 0 20px;
+    margin: 0 auto;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .container {
+    max-width: 768px;
+    padding: 0 32px;
+  }
+
+  .slider-section > .slick-arrow {
+    width: 36px;
+    height: 36px;
+  }
+
+  .slider-section > .slick-prev {
+    top: 110.5%;
+  }
+
+  .slider-section > .slick-next {
+    top: 110.5%;
+    right: 600px;
+  }
+
+  .slider-section {
+    width: 704px;
+  }
+
+  .rest-slide {
+    width: 336px;
+    height: 309px;
+    margin-right: 32px;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .container {
+    max-width: 1440px;
+  }
+
+  .slider-section > .slick-prev {
+    top: 119%;
+    left: 652px;
+  }
+
+  .slider-section > .slick-next {
+    top: 119%;
+    right: 652px;
+  }
+
+  .slider-section {
+    width: 1408px;
+  }
+
+  .rest-slide {
+    width: 266px;
+    height: 309px;
+  }
+}

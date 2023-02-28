@@ -60,8 +60,8 @@ body {
 }
 
 .slide {
-  width: 250px !important;
-  height: 429px !important;
+  width: 250px;
+  height: 429px;
   margin-right: 20px;
 }
 
@@ -92,8 +92,8 @@ body {
   }
 
   .slide {
-    width: 436px !important;
-    height: 548px !important;
+    width: 436px;
+    height: 548px;
     margin-right: 32px;
   }
 
@@ -120,8 +120,8 @@ body {
   }
 
   .slide {
-    width: 436px !important;
-    height: 580px !important;
+    width: 436px;
+    height: 580px;
   }
 
   .slick-prev {

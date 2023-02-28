@@ -27,6 +27,7 @@
 
 /* pages */
 /* hotel page */
+@import url('./layout/pages/hotel/hotel-header.css');
 @import url('./layout/pages/hotel/hero.css');
 @import url('./layout/pages/hotel/double.css');
 @import url('./layout/pages/hotel/triple.css');

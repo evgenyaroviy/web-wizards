@@ -1,0 +1,42 @@
+.triple {
+  margin: 0 auto;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 64px;
+  padding-bottom: 64px;
+}
+.triple__room {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+.triple__bath {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+.triple__kitchen {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+.triple__title {
+}
+.triple__description {
+}
+.triple__facilities {
+}
+.details {
+  background-color: transparent;
+  border: 0.8px solid #121212;
+  border-radius: 32px;
+}
+.prices {
+  background-color: transparent;
+  border: 0.8px solid #121212;
+  border-radius: 32px;
+}
+.picture-set {
+  display: flex;
+  justify-content: space-between;
+}

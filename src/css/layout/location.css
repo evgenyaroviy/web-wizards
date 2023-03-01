@@ -115,18 +115,20 @@
   .location-adress {
     padding-top: 100px;
     padding-bottom: 105px;
+    padding-left: 64px;
   }
 
   .location-title {
-    margin-left: 736px;
+    margin-left: 672px;
     align-items: flex-start;
   }
 
   .google-map {
-    margin-top: -100px;
+    margin-top: -105px;
     margin-bottom: 0;
     width: 640px;
     height: 524px;
+    
   }
 
   .location-adress-phone {
@@ -145,7 +147,7 @@
   }
 
   .fact-adress {
-    margin-left: 736px;
+    margin-left: 672px;
     padding-top: 0;
     padding-bottom: 0;
   }

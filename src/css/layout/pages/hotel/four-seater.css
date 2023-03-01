@@ -12,6 +12,7 @@
   height: auto;
 }
 .seaters__room {
+  display: block;
   margin-bottom: 20px;
 }
 .seater__picture-set {
@@ -94,6 +95,33 @@
   }
   .button-position {
     text-align: right;
+  }
+
+  .seaters__pic {
+    display: flex;
+    flex-direction: row-reverse;
+    margin-bottom: 40px;
+  }
+  .seaters__room {
+    height: 100%;
+    width: 331px;
+    margin-bottom: 0px;
+  }
+  .seater__picture-set {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-end;
+    margin-bottom: 0px;
+    margin-right: 32px;
+  }
+  .seaters__bath {
+    height: auto;
+    width: 223px;
+  }
+  .seaters__kitchen {
+    height: auto;
+    width: 100%;
   }
 }
 

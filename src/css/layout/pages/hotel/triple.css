@@ -6,13 +6,14 @@
 }
 .room-pic {
   display: block;
-  width: 100%;
+  /* width: 100%; */
   height: auto;
 }
 .triple__picture-block {
   display: block;
 }
 .triple__room {
+  display: block;
   margin-bottom: 20px;
 }
 
@@ -98,19 +99,26 @@
     margin-bottom: 40px;
   }
   .triple__room {
+    width: 331px;
+    height: 100%;
     margin-bottom: 0px;
     margin-right: 32px;
   }
   .triple__picture-set {
-    flex-wrap: wrap;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
     margin-bottom: 0px;
-    justify-content: flex-start;
   }
 
   .triple__bath {
+    /* height: auto; */
+    width: 223px;
     margin-bottom: 32px;
   }
   .triple__kitchen {
+    /* height: auto; */
+    width: 341px;
   }
 
   .triple__text {

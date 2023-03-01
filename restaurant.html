@@ -18,7 +18,7 @@
 
   
   <script type="module" crossorigin src="/web-wizards/assets/modal-cadfeee0.js"></script>
-  <link rel="stylesheet" href="/web-wizards/assets/modal-7aa9b556.css">
+  <link rel="stylesheet" href="/web-wizards/assets/modal-22140c2f.css">
 </head>
 
 <body>
@@ -52,9 +52,9 @@
         <!-- button -->
 
 <div class="modal-open">
-    <a href="#" class="js-open-modal" data-modal="1">1</a>
-    <a href="#" class="js-open-modal" data-modal="2">2</a>
-    <a href="#" class="js-open-modal" data-modal="3">3</a>
+    <a href="#" class="js-open-modal" data-modal="1"></a>
+    <a href="#" class="js-open-modal" data-modal="2"></a>
+    <a href="#" class="js-open-modal" data-modal="3"></a>
 </div>
 
 
@@ -110,42 +110,65 @@
 <div class="modal" data-modal="2">
 
     <button type="button" class="modal__cross js-modal-close"></button>
-    <p class="modal__title">book <span class="italic">a table</span></p>
+    <p class="modal__title">book <span class="italic">a room</span></p>
     <form>
         <div class="form">
-            <div class="modal-input">
+            <div class="modal-input-table">
                 <div>
                     <input type="text" class="info" placeholder="your name" minlength="3" required="">
                     <p class="info-text">who should book a table for?</p>
+</div>
+<div class="table">
+    <div class="tel-wrap">
+        <input type="tel" pattern="\+?[0-9\s\-\(\)]+" minlength="13" class="info" placeholder="+ 38 () " required="">
+        <p class="info-text">phone number</p>
+    </div>
+</div>
+</div>
+
+<div class="modal-input-table2">
+    <div class="select-wrap">
+        <div class="select-arrow">
+            <select name="day" class="info-select">
+                <option value="value1" class="select-text" selected>today</option>
+                <option value="value2" class="select-text">tomorrow</option>
+                <option value="value3" class="select-text">day after tomorrow</option>
+            </select>
+        </div>
+        <p class="info-text">check-in date</p>
+    </div>
+    <div class="select-wrap">
+        <div class="select-arrow">
+            <select name="numder" class="info-select">
+                <option value="value1" class="select-text">18/04/2023</option>
+                <option value="value2" class="select-text">19/04/2023</option>
+                <option value="value3" class="select-text">20/04/2023</option>
+                <option value="value3" class="select-text">22/04/2023</option>
+                <option value="value3" class="select-text">23/04/2023</option>
+                <option value="value3" class="select-text">24/04/2023</option>
+                <option value="value1" class="select-text" selected>25/04/2023</option>
+                <option value="value2" class="select-text">26/04/2023</option>
+                <option value="value3" class="select-text">27/04/2023</option>
+                <option value="value3" class="select-text">28/04/2023</option>
+                <option value="value3" class="select-text">29/04/2023</option>
+                <option value="value3" class="select-text">30/04/2023</option>
+                </select>
                 </div>
-                <div class="select-wrap">
-                    <div class="select-arrow">
-                        <select name="numder" class="info-select">
-                            <option value="value1" class="select-text" selected>number of people</option>
-                            <option value="value2" class="select-text">1</option>
-                            <option value="value3" class="select-text">2</option>
-                            <option value="value3" class="select-text">3</option>
-                            <option value="value3" class="select-text">4</option>
-                            <option value="value3" class="select-text">5</option>
-                        </select>
-                    </div>
+                <p class="info-text">check-out date</p>
                 </div>
                 </div>
-                <div class="modal-select">
-                    <div class="tel-wrap">
-                        <input type="tel" pattern="\+?[0-9\s\-\(\)]+" minlength="13" class="info" placeholder="+ 38 () " required="">
-                        <p class="info-text">phone number</p>
-                    </div>
-                    <div class="select-wrap">
-                        <div class="select-arrow">
-                            <select name="day" class="info-select">
-                                <option value="value1" class="select-text" selected>today</option>
-                                <option value="value2" class="select-text">tomorrow</option>
-                                <option value="value3" class="select-text">day after tomorrow</option>
-                            </select>
-                        </div>
-                        <p class="info-text">what date to book?</p>
-                    </div>
+
+            <div class="modal-select">
+    <div class="select-wrap">
+        <div class="select-arrow">
+            <select name="day" class="info-select">
+                <option value="value1" class="select-text" selected>double suite</option>
+                <option value="value2" class="select-text">triple suite</option>
+                <option value="value3" class="select-text">four-person suite</option>
+                </select>
+                </div>
+                <p class="info-text">number category</p>
+                </div>
                 </div>
                 </div>
                 <button type="submit" class="btn-info"><span class="btn-text">make a resrvation</span></button>
@@ -158,45 +181,51 @@
 <div class="modal" data-modal="3">
 
     <button type="button" class="modal__cross js-modal-close"></button>
-    <p class="modal__title">book <span class="italic">a table</span></p>
+    <p class="modal__title">prices <span class="italic-modal-3">per room</span></p>
+    <p class="modal-select-name">double suite</p>
     <form>
         <div class="form">
-            <div class="modal-input">
-                <div>
-                    <input type="text" class="info" placeholder="your name" minlength="3" required="">
-                    <p class="info-text">who should book a table for?</p>
-                </div>
-                <div class="select-wrap">
-                    <div class="select-arrow">
-                        <select name="numder" class="info-select">
-                            <option value="value1" class="select-text" selected>number of people</option>
-                            <option value="value2" class="select-text">1</option>
-                            <option value="value3" class="select-text">2</option>
-                            <option value="value3" class="select-text">3</option>
-                            <option value="value3" class="select-text">4</option>
-                            <option value="value3" class="select-text">5</option>
-                        </select>
-                    </div>
-                </div>
-                </div>
-                <div class="modal-select">
-                <div class="tel-wrap">
-                    <input type="tel" pattern="\+?[0-9\s\-\(\)]+" minlength="13" class="info" placeholder="+ 38 () " required="">
-                    <p class="info-text">phone number</p>
-                </div>
+            <div class="modal-select-3">
                 <div class="select-wrap">
                     <div class="select-arrow">
                         <select name="day" class="info-select">
-                            <option value="value1" class="select-text" selected>today</option>
-                            <option value="value2" class="select-text">tomorrow</option>
-                            <option value="value3" class="select-text">day after tomorrow</option>
+                            <option value="value1" class="select-text" selected>1</option>
+                            <option value="value2" class="select-text">2</option>
+                            <option value="value3" class="select-text">3</option>
+                            <option value="value2" class="select-text">4</option>
+                            <option value="value3" class="select-text">5</option>
+                            <option value="value2" class="select-text">6</option>
+                            <option value="value3" class="select-text">7</option>
                         </select>
                     </div>
-                    <p class="info-text">what date to book?</p>
-                </div>
-                </div>
-                </div>
-                <button type="submit" class="btn-info"><span class="btn-text">make a resrvation</span></button>
+                    <p class="info-text">number of nights</p>
+                    </div>
+                    <div class="select-wrap-price">
+                        <div class="select-arrow">
+                            <select name="numder" class="info-select">
+                                <option value="value1" class="select-text">18/04/2023</option>
+                                <option value="value2" class="select-text">19/04/2023</option>
+                                <option value="value3" class="select-text">20/04/2023</option>
+                                <option value="value3" class="select-text">22/04/2023</option>
+                                <option value="value3" class="select-text">23/04/2023</option>
+                                <option value="value3" class="select-text">24/04/2023</option>
+                                <option value="value1" class="select-text" selected>25/04/2023</option>
+                                <option value="value2" class="select-text">26/04/2023</option>
+                                <option value="value3" class="select-text">27/04/2023</option>
+                                <option value="value3" class="select-text">28/04/2023</option>
+                                <option value="value3" class="select-text">29/04/2023</option>
+                                <option value="value3" class="select-text">30/04/2023</option>
+                            </select>
+                            </div>
+                    <p class="info-text">check-in date</p>
+                    </div>
+                    <div class="select-wrap-price1">
+                        <input type="tel" pattern="\+?[0-9\s\-\(\)]+" minlength="4" class="info" placeholder="1000" required="">
+                        <p class="info-text">uah</p>
+                    </div>
+                    </div>
+                    </div>
+                    <button type="submit" class="btn-info"><span class="btn-text">make a resrvation</span></button>
     </form>
 
 </div>

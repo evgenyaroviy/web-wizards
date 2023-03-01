@@ -2,12 +2,22 @@
   padding: 64px 0;
 }
 
+.visually-hidden {
+  position: absolute;
+  white-space: nowrap;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  border: 0;
+  padding: 0;
+  clip: rect(0 0 0 0);
+  clip-path: inset(50%);
+  margin: -1px;
+}
+
 .about-subtitle {
-  font-family: 'DM Sans';
-  font-style: normal;
-  font-weight: 400;
   font-size: 12px;
-  line-height: 14px;
+  line-height: calc(14 / 12);
   letter-spacing: 0.18em;
   text-transform: uppercase;
   color: #484848;
@@ -15,14 +25,12 @@
 }
 
 .about-text {
-  font-family: 'DM Sans';
-  font-style: normal;
   font-weight: 500;
   font-size: 14px;
-  line-height: 18px;
+  line-height: calc(18 / 14);
   letter-spacing: -0.02em;
   text-transform: uppercase;
-  color: #121212;
+  color: var(--main-dark-color);
 }
 
 .about-complex-text1 {
@@ -57,7 +65,7 @@ img {
 
 .about-client-maria {
   width: 212px;
-  background-color: #121212;
+  background-color: var(--main-dark-color);
   box-shadow: 1px 7px 22px rgba(0, 0, 0, 0.1);
   border-radius: 6px;
   display: flex;
@@ -74,28 +82,20 @@ img {
 }
 
 .about-client-name {
-  font-family: 'DM Sans';
-  font-style: normal;
   font-weight: 500;
   font-size: 14px;
-  line-height: 14px;
-  color: #f7f7f7;
+  line-height: calc(14 / 14);
+  color: var(--main-modal-color);
   margin-bottom: 7px;
 }
 
 .about-client-text {
-  font-family: 'DM Sans';
-  font-style: normal;
-  font-weight: 400;
   font-size: 12px;
   line-height: 133.02%;
   color: #575757;
 }
 
 .about-client-grade {
-  font-family: 'DM Sans';
-  font-style: normal;
-  font-weight: 400;
   font-size: 12px;
   line-height: 133.02%;
   color: #f7f7f7;
@@ -107,7 +107,7 @@ img {
 
 .about-client-alex {
   width: 212px;
-  background-color: #121212;
+  background-color: var(--main-dark-color);
   box-shadow: 1px 7px 22px rgba(0, 0, 0, 0.1);
   border-radius: 6px;
   display: flex;
@@ -140,7 +140,7 @@ img {
 
   .about-text {
     font-size: 18px;
-    line-height: 24px;
+    line-height: calc(24 / 18);
     width: 472px;
   }
 
@@ -201,7 +201,7 @@ img {
   }
 
   .about-business-text {
-    width: 100%;
+    width: 350px;
   }
 }
 
@@ -237,6 +237,10 @@ img {
     position: absolute;
     top: 176px;
     left: 370px;
+  }
+
+  .about-complex-images {
+    margin-bottom: 0;
   }
 
   .about-complex {

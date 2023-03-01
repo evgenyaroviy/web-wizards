@@ -155,13 +155,14 @@
     max-width: 1440px;
     padding: 0 32px;
     margin: 0 auto;
-    position: relative;
+    
   }
 
   .hotel-details {
     padding-bottom: 60px;
     width: 1440px;
       margin: 0 auto;
+      position: relative;
     }
 
   .proposition-hotel-details {
@@ -174,7 +175,7 @@
     right: 0px;
     margin: 0;
     padding-top: 44px;
-    padding-left: 32px;
+    padding-right: 32px;
   }
 
   .button-hotel-details-list {

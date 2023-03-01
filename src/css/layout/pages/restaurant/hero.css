@@ -78,11 +78,13 @@
         padding-right: 34px;
     }
 
-    .hero {
-        padding-top: 40px;
-        padding-bottom: 40px;
-        background-color: var(--main-modal-color);
-    }
+.hero-rest {
+    width: 1440px;
+    margin: 0 auto;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    background-color: var(--main-modal-color);
+}
 
     .hero-title {
         font-size: 80px;

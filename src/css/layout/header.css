@@ -246,6 +246,7 @@ transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 
 @media screen and (min-width: 1440px) {
   .header {
+    width: 1440px;
     background-color: transparent;
     position: absolute;
     width: 100%;

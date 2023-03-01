@@ -103,6 +103,8 @@
 @media screen and (min-width: 768px) {
 
     .amenities {
+        width: 768px;
+            margin: 0 auto;
     padding-bottom: 80px;
     padding-top: 80px;
     }
@@ -148,6 +150,8 @@
 @media screen and (min-width: 1440px) {
 
     .amenities {
+    width: 1440px;
+        margin: 0 auto;
     padding-bottom: 94px;
     padding-top: 100px;
     }

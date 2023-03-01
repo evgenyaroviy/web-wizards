@@ -1,8 +1,9 @@
 * {
   margin: 0;
 }
+
 body {
-  background: #d8d8d8;
+  background: #D8D8D8;
 }
 
 .container {
@@ -22,16 +23,16 @@ body {
 }
 
 .slick-prev {
-  top: 106%;
+  top: 110%;
   left: 66%;
-  background-image: url(../../img/test-img/prev.svg);
+  background-image: url(../img/slide-img/prev.svg);
   opacity: 1;
 }
 
 .slick-next {
-  top: 106%;
+  top: 110%;
   right: 0;
-  background-image: url(../../img/test-img/next.svg);
+  background-image: url(../img/slide-img/next.svg);
   opacity: 1;
 }
 
@@ -43,13 +44,13 @@ body {
 .slick-next:hover,
 .slick-next:focus {
   opacity: 0.7;
-  background-image: url(../../img/test-img/next.svg);
+  background-image: url(./img/slide-img/next.svg);
 }
 
 .slick-prev:hover,
 .slick-prev:focus {
   opacity: 0.7;
-  background-image: url(../../img/test-img/prev.svg);
+  background-image: url(./img/slide-img/prev.svg);
 }
 
 .slider-line {
@@ -87,6 +88,14 @@ body {
     padding: 0 32px;
   }
 
+    .slick-prev {
+      top: 110.5%;
+      left: 66%;
+    }
+  
+    .slick-next {
+      top: 110.5%;
+    }
   .slider {
     width: 736px;
   }
@@ -126,9 +135,11 @@ body {
 
   .slick-prev {
     left: 0;
+    top: 110.5%;
   }
 
   .slick-next {
     right: 600px;
+    top: 110.5%;
   }
 }

@@ -15,12 +15,12 @@ l .txt-italic {
   text-decoration: none;
 }
 
-@media screen and (min-width: 375px) and (max-width: 768px) {
+@media screen and (min-width: 375px) {
   .container {
     max-width: 375px;
     padding: 0 20px;
     margin: 0 auto;
-    background: #d8d8d8;
+    
   }
   .container {
     padding-top: 64px;
@@ -60,7 +60,7 @@ l .txt-italic {
   .container {
     padding-top: 80px;
     padding-bottom: 80px;
-    background: #d8d8d8;
+    
   }
   .kitchen {
     display: flex;
@@ -98,7 +98,7 @@ l .txt-italic {
   .container {
     padding-top: 100px;
     padding-bottom: 100px;
-    background: #d8d8d8;
+    
   }
 
   .mimi-siz {
@@ -123,7 +123,7 @@ l .txt-italic {
     left: 543px;
   }
   .img-cook {
-    position: absolute;
+    /* position: absolute; */
     top: 0;
     left: 0;
   }

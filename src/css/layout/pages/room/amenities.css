@@ -1,0 +1,182 @@
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+
+
+.amenities {
+    background-color: var(--main-dark-color);
+    color: var(--main-light-color);
+    padding-top: 40px;
+    padding-bottom: 64px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.amenities-list {
+    margin-bottom: 64px;
+}
+.amenities-list-item {
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 1.14;
+    letter-spacing: -0.02em;
+    text-transform: uppercase;
+    color: var(--main-modal-color);
+}
+
+.amenities-sub-item {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.29;
+    letter-spacing: -0.02em;
+    text-transform: uppercase;
+    color: var(--main-modal-color);
+}
+
+.amenities-sub-list {
+    list-style-type: disc;
+    padding-left: 20px;
+}
+.amenities-sub-list::marker {
+    font-size: 1.5px;
+}
+
+
+
+.amenities-sub-list {
+    margin-top: 28px;
+}
+
+
+.amenities-wrap-picture {
+    
+    margin-bottom: 32px;
+}
+
+.img-care-products {
+    position: absolute;
+    z-index: 10;
+    left: 0;
+    top: 144px;
+}
+
+.img-bathroom {
+    margin-left: auto;
+}
+.wrap-bottom {
+        position: relative;
+    }
+
+.amenities-btn {
+    margin: 0 auto;
+    display: block;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.7;
+    letter-spacing: -0.02em;
+    text-transform: uppercase;
+    color: var(--main-modal-color);
+    padding: 8px 48px;
+    
+    border: 0.8px solid #F7F7F7;
+    border-radius: 32px;
+    background-color: transparent;
+}
+
+.amenities-btn:hover,
+.amenities-btn:focus {
+    background-color: var(--main-light-color);
+    color: var(--main-dark-color);
+
+}
+
+@media screen and (min-width: 768px) {
+
+    .amenities {
+    padding-bottom: 80px;
+    padding-top: 80px;
+    }
+
+    
+    
+
+    .img-care-products {
+    top: 156px;
+    }
+
+    .amenities-btn {
+        position: absolute;
+        bottom: 130px;
+        left: 0;
+    }
+    
+
+    .amenities-btn {
+    padding: 8px 24px;
+}
+    .amenities-wrap-picture {
+    margin-bottom: 0;
+}
+}
+@media screen and (max-width: 767px) {
+    .amenities-list {
+    margin-bottom: 122px;
+    }
+
+    .amenities-list {
+    margin-bottom: 108px;
+    }
+
+}
+@media screen and (max-width: 1439px) {
+.amenities-list-item:not(:last-child) {
+    margin-bottom: 40px;
+}
+}
+
+
+@media screen and (min-width: 1440px) {
+
+    .amenities {
+    padding-bottom: 94px;
+    padding-top: 100px;
+    }
+
+    .container {
+        max-width: 1176px;
+    }
+
+
+    .amenities-list {
+        display: flex;
+        flex-wrap: wrap;
+        row-gap: 100px;
+    }
+        
+    
+    .amenities-list-item {
+    flex-basis: calc((100% - 70px) / 2);
+    margin-bottom: 0;
+    }
+
+    .wrap-bottom {
+    max-width: 847px;
+    margin-left: auto;
+    margin-top: -120px;
+    }
+
+    .img-care-products {
+    top: 216px;
+    }
+
+}

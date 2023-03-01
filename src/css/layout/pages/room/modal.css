@@ -274,7 +274,7 @@ color: var(--main-modal-color);
 .modal-select {
     display: flex;
     width: 266px;
-        flex-flow: inherit;
+        flex-flow: row;
     }
 
 .tel-wrap,

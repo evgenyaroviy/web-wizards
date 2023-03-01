@@ -21,28 +21,21 @@ l .txt-italic {
     padding: 0 20px;
     margin: 0 auto;
   }
-  /* .cook-siz {
-    width: 335px;
-    height: 443px;
-  } 
-  .drink-siz {
-    height: 149px;
+  .container {
+    padding-top: 64px;
+    padding-bottom: 64px;
   }
-
   .kitchen {
     display: flex;
     flex-direction: column;
     gap: 20px;
   }
-  .inform-containe {
+  .tab-style {
     display: flex;
-    max-width: 375px;
-    padding: 0 20px;
-    margin: 0 auto;
+    flex-direction: column;
+    gap: 20px;
   }
-  .inform {
-    font-family: 'DM Sans';
-    font-style: normal;
+  .kitchen-text {
     font-weight: 400;
     font-size: 14px;
     line-height: 1.29;
@@ -50,28 +43,16 @@ l .txt-italic {
     text-transform: uppercase;
     color: #000000;
     max-width: 335px;
-    height: 90px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
   }
   .kitchen-list {
     display: flex;
-    flex-wrap: nowrap;
     gap: 20px;
+    margin-bottom: 12px;
   }
-  .kitchen-link {
+  .kitchen-info {
     display: flex;
-  }
-  .cook {
-    margin-bottom: 20px;
-  }
-
-  .link-kitchen-inf:not(:last-child) {
-    margin-bottom: 24px;
-  }
-  .container-kitchen {
-    padding-bottom: 64px;
+    flex-direction: column;
+    gap: 24px;
   }
 }
 @media screen and (min-width: 768px) {
@@ -79,100 +60,86 @@ l .txt-italic {
     padding-top: 80px;
     padding-bottom: 80px;
   }
-
   .kitchen {
     display: flex;
-    flex-wrap: nowrap;
-    flex-direction: row-reverse;
+    flex-direction: column;
     gap: 32px;
     margin-bottom: 40px;
   }
-  .cook-siz {
-    width: 388px;
-    min-height: 515px;
+  .tab-style {
+    display: flex;
+    flex-direction: row-reverse;
+    gap: 32px;
+  }
+  .kitchen-text {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: calc(24 / 18);
+    letter-spacing: -0.02em;
+    text-transform: uppercase;
+    color: #000000;
+  }
+  .kitchen-list {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    margin-bottom: 0;
+  }
+  .kitchen-info {
+    display: flex;
+    flex-direction: row;
+    gap: 32px;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .container {
+    padding-top: 100px;
+    padding-bottom: 100px;
   }
 
+  .mimi-siz {
+    max-width: 334px;
+  }
+  .our-siz {
+    max-width: 467px;
+  }
+  .tab-style {
+    display: flex;
+    flex-direction: row;
+    gap: 32px;
+  }
   .kitchen-list {
     display: flex;
     flex-direction: row;
-    flex-wrap: wrap;
-    row-gap: 16px;
-  }
-
-  .kitchen-link {
-    display: flex;
-  }
-  .inftab {
-    display: flex;
     flex-wrap: nowrap;
     gap: 32px;
-    justify-content: center;
-    align-items: center;
-  }
-  .inform-containe {
-    display: flex;
-    max-width: 768px;
-    padding: 0 20px;
-    margin: 0 auto;
-  }
-
-  .container-kitchen {
-    padding-bottom: 80px;
-  }
- */
-}
-@media screen and (min-width: 1440px) {
-  .container {
-    max-width: 1440px;
-    padding: 0 32px;
-    margin: 0 auto;
-  }
-  .kitchen-list {
     position: absolute;
     top: 0;
     right: 0;
+    left: 543px;
   }
-  /* .kitchen-list {
+  .img-cook {
+    position: absolute;
+    top: 0;
+    left: 0;
+  }
+
+  .kitchen-info {
+    position: absolute;
     display: flex;
     flex-wrap: nowrap;
     gap: 32px;
+    top: 389px;
+    right: 0;
+    left: 543px;
+    padding-top: 32px;
+    justify-content: center;
+    align-items: center;
   }
 
-  .cook {
-    order: 1;
-  }
-  .inftab {
-    display: flex;
-    flex-wrap: nowrap;
-    gap: 32px;
-  }
-   .inform-containe {
-    display: flex;
-    max-width: 375px;
-    padding: 0 20px;
-    margin: 0 auto;
-  }
-
-   .cook-siz {
-    width: 511px;
-    height: 598px;
-  } 
-  
-  .cook {
-    display: flex;
-    flex-wrap: nowrap;
-  }
-  
-  .kitchen-link {
-    display: flex;
-  }
-  .kitchen-list {
-    flex-direction: row;
-    flex-wrap: wrap;
-    row-gap: 16px;
-  }
-  .inform {
-    width: 453px;
+  .kitchen-text {
+    justify-content: center;
     height: 120px;
     font-family: 'DM Sans';
     font-style: normal;
@@ -182,15 +149,8 @@ l .txt-italic {
     letter-spacing: -0.02em;
     text-transform: uppercase;
     color: #000000;
-  } 
+  }
   .kitchen {
-    display: flex;
+    position: relative;
   }
-  .kitchen-list {
-    display: flex;
-    flex-wrap: nowrap;
-    gap: 32px;
-  }
-  
-   */
 }

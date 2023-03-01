@@ -5,12 +5,6 @@
     margin-bottom: 64px;
 }
 
-.room-pic {
-    display: block;
-    width: 100%;
-    height: auto;
-}
-
 .triple__picture-block {
     display: block;
 }
@@ -22,12 +16,10 @@
 .triple__picture-set {
     display: flex;
     justify-content: space-between;
+    gap: 20px;
     margin-bottom: 32px;
 }
 
-.triple__bath {}
-
-.triple__kitchen {}
 
 .triple__title {
     margin-bottom: 32px;
@@ -97,12 +89,13 @@
     margin-right: 14px;
 }
 
-.prices {}
 
 /* Tablet */
 @media screen and (min-width: 768px) {
     .triple__picture-block {
         display: flex;
+        flex-direction: row;
+            gap: 32px;
         margin-bottom: 40px;
     }
 
@@ -112,16 +105,15 @@
     }
 
     .triple__picture-set {
-        flex-wrap: wrap;
+        flex-direction: column;
+            gap: 32px;
         margin-bottom: 0px;
-        justify-content: flex-start;
+        justify-content: flex-end;
     }
 
     .triple__bath {
-        margin-bottom: 32px;
+        margin-bottom: 0;
     }
-
-    .triple__kitchen {}
 
     .triple__text {
         display: flex;
@@ -164,12 +156,26 @@
 
 /* Desk-Top */
 @media screen and (min-width: 1440px) {
+.triple {
+        position: relative;
+        padding-top: 130px;
+        padding-bottom: 100px;
+        margin-bottom: 0;
+    }
+
+    .triple-img {
+        position: absolute;
+        left: 50%;
+        transform: translateX(-47%);
+    }
     .triple__title {
         margin-bottom: 40px;
     }
 
     .triple__picture-block {
-        display: flex;
+        display: block;
+            flex-direction: row;
+            margin-bottom: 151px;
     }
 
     .triple__room {
@@ -178,24 +184,22 @@
     }
 
     .triple__picture-set {
-        flex-wrap: wrap;
+        flex-direction: row-reverse;
+            justify-content: space-between;
+            padding-top: 151px;
         margin-bottom: 0px;
-        justify-content: flex-start;
+        
     }
 
     .triple__bath {
         margin-bottom: 32px;
     }
 
-    .triple__kitchen {}
-
     .triple__position {
         display: flex;
         flex-direction: row-reverse;
         justify-content: space-between;
     }
-
-    .triple__description {}
 
     .triple__info-button {
         font-size: 18px;

@@ -1,8 +1,9 @@
 .hero-room{
    display: flex;
    flex-direction: column;
+   justify-content: center;
    align-items: flex-start;
-    padding: 40px 0;
+   padding: 40px 0 64px;
     padding-left:20px;
     background: #F7F7F7;
 }
@@ -15,9 +16,8 @@ font-size: 40px;
 line-height: calc(40/40);
 letter-spacing: -0.02em;
 text-transform: uppercase;
-padding-right: 40px;
+width: 270px;
 color: #121212;
-
 margin-bottom: 24px;
 }
 
@@ -95,11 +95,10 @@ width: 289px;
 @media screen and (min-width:768px){
     .hero-room{
         padding-left: 32px;
-        padding-top: 40px;  
+       padding: 40px 0 120px ; 
     }
     .hero-room-text{
-    padding-right: 250px;
-    width: 406;
+    width: 406px;
     font-size: 60px;
     line-height: calc(60/60);
     margin-bottom: 18px;
@@ -125,25 +124,26 @@ margin-bottom: 0;
      .hero-room{
     display: flex;
     flex-direction: column;
+    padding: 30px 0; 
+    padding-left:32px;
    
 }
     .hero-room-section{
     display: flex;
     flex-direction: row; 
+    gap: 112px;
+
     
 }
-.hero-room-txt{
-    display: flex;
-    flex-direction: column;
+.hero-room-section{
     align-items: start;
     justify-content: center;
+     gap: 112px;
 }
     .hero-room-text{
-    width: 592;
+    width: 592px;
     font-size: 80px;
     line-height: calc(80/80);
-    margin-bottom: 18px;
-    padding-right: 112px;
     margin-bottom: 32px;
     
 }

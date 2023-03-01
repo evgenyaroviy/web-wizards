@@ -70,6 +70,11 @@
   border: 0.8px solid var(--main-dark-color);
   border-radius: 32px;
 }
+.seaters__info-button:hover,
+.seaters__info-button:focus {
+  background-color: var(--main-dark-color);
+  color: var(--main-light-color);
+}
 .details {
   margin-right: 14px;
 }

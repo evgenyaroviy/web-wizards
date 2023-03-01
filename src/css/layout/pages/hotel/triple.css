@@ -86,6 +86,11 @@
   border: 0.8px solid #121212;
   border-radius: 32px;
 }
+.triple__info-button:hover,
+.triple__info-button:focus {
+  background-color: var(--main-dark-color);
+  color: var(--main-light-color);
+}
 .details {
   margin-right: 14px;
 }

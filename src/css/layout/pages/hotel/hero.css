@@ -1,5 +1,5 @@
 
-.slider {
+.slider-hotel {
   background-color: aqua;
   height: 429px;
   margin-bottom: 100px;
@@ -74,7 +74,7 @@
     margin-bottom: 54px;
   }
 
-  .slider {
+                                .slider-hotel {
     margin-bottom: 40px;
   }
 
@@ -87,8 +87,8 @@
   }
 
   .hero-title-btn-wrap {
-    display: flex;
-   flex-direction: column;
+    /* display: flex;
+           flex-direction: column; */
   }
 
   .hero-hotel-section {
@@ -125,8 +125,8 @@
     top: 650px;
   }
 
-  .slider {
-    width: 700px;
+                .slider-hotel {
+                  width: 650px;
     height: 580px;
     margin-bottom: 0;
   }

@@ -2,7 +2,8 @@
     margin: 0 auto;
     padding-left: 20px;
     padding-right: 20px;
-    margin-bottom: 64px;
+    padding-bottom: 64px;
+        background-color: #f8f8f8;
 }
 
 
@@ -110,15 +111,19 @@
 /* DeskTop */
 @media screen and (min-width: 1440px) {
 .seaters {
-        position: relative;
+        
         margin: 0 auto;
         margin-bottom: 0;
     }
 
+.seaters .container {
+    position: relative;
+}
     .four-img {
         position: absolute;
-        left: 50%;
-        transform: translateX(-50%);
+            left: 50%;
+            top: 0;
+                transform: translateX(-50%);
     }
 
     .four__picture-block {

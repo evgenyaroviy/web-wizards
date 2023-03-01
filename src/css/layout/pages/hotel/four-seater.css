@@ -1,0 +1,112 @@
+.seaters {
+  margin: 0 auto;
+  padding-left: 20px;
+  padding-right: 20px;
+  margin-bottom: 64px;
+}
+.container {
+}
+.room-pic {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+.seaters__room {
+  margin-bottom: 20px;
+}
+.seater__picture-set {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 32px;
+}
+.seaters__bath {
+}
+.seaters__kitchen {
+}
+.seaters__title {
+  margin-bottom: 32px;
+  font-family: 'DM Sans';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: calc(40 / 32);
+  /* identical to box height, or 125% */
+
+  letter-spacing: -0.02em;
+  text-transform: uppercase;
+
+  color: var(--main-dark-color);
+}
+.seaters__data {
+  margin-bottom: 28px;
+}
+.seaters__description {
+  font-family: 'DM Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: calc(18 / 14);
+
+  letter-spacing: -0.02em;
+  text-transform: uppercase;
+
+  color: var(--main-dark-color);
+}
+.seaters__info-button {
+  padding: 8px 18px 8px 18px;
+  font-family: 'DM Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: calc(18 / 14);
+  /* identical to box height, or 129% */
+
+  letter-spacing: -0.02em;
+  text-transform: uppercase;
+
+  color: var(--main-dark-color);
+  background-color: transparent;
+  border: 0.8px solid var(--main-dark-color);
+  border-radius: 32px;
+}
+.details {
+  margin-right: 14px;
+}
+.prices {
+}
+
+/* Tablet */
+@media screen and (min-width: 768px) {
+  .seaters__title {
+    font-size: 40px;
+    line-height: calc(44 / 40);
+  }
+  .seaters__description {
+    width: 475px;
+    margin-bottom: 40px;
+    font-size: 18px;
+    line-height: calc(24 / 18);
+  }
+  .seaters__info-button {
+    line-height: calc(24 / 14);
+    padding-left: 24px;
+    padding-right: 24px;
+  }
+  .button-position {
+    text-align: right;
+  }
+}
+
+/* DeskTop */
+@media screen and (min-width: 1440px) {
+  .seaters__position {
+    display: flex;
+    justify-content: space-between;
+  }
+  .seaters__info-button {
+    font-size: 18px;
+    line-height: calc(24 / 18);
+    padding-top: 9px;
+    padding-bottom: 9px;
+  }
+}

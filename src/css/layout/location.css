@@ -1,17 +1,17 @@
 .location-adress {
-  padding-top: 80px;
-  padding-bottom: 80px;
+  padding-top: 64px;
+  padding-bottom: 64px;
 }
 
 .location-title {
   font-weight: 500;
-  font-size: 68px;
-  line-height: calc(68 / 68);
+  font-size: 40px;
+  line-height: calc(40 / 40);
   letter-spacing: -0.02em;
   text-transform: uppercase;
   color: #121212;
-  max-width: 324px;
-  margin-bottom: 40px;
+  max-width: 191px;
+  margin-bottom: 32px;
 }
 
 .google-map {
@@ -21,73 +21,95 @@
 }
 
 .fact-adress {
+  font-weight: 400;
   font-size: 18px;
+  font-style: normal;
   line-height: calc(24 / 18);
+  letter-spacing: -0.02em;
   text-transform: uppercase;
   margin-bottom: 28px;
 }
 
 .call-us {
-font-weight: 500;
-font-size: 14px;
-line-height: calc(18 / 14);
-letter-spacing: -0.02em;
-text-transform: uppercase;
-color: #121212;
-margin-bottom: 12px;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: calc(18 / 14);
+  letter-spacing: -0.02em;
+  text-transform: uppercase;
+  color: #121212;
+  margin-bottom: 12px;
 }
 
 .phone-number {
-display: block;
-font-size: 18px;
-line-height: calc(24 / 18);
-letter-spacing: -0.02em;
-text-transform: uppercase;
-color: #121212;
+  display: block;
+  font-weight: 400;
+  font-size: 14px;
+  font-style: normal;
+  line-height: calc(18 / 14);
+  letter-spacing: -0.02em;
+  text-transform: uppercase;
+  color: #121212;
 }
 
 .container {
-    width: 100%;
-    padding: 0 20px;
-    margin: 0 auto;
+  width: 100%;
+  padding: 0 20px;
+  margin: 0 auto;
 }
-  
+
 @media screen and (min-width: 375px) {
   .container {
-          max-width: 375px;
-          margin: 0 auto;
+    max-width: 375px;
+    margin: 0 auto;
   }
-  }
-
-
-  @media screen and (min-width: 768px) {
-    .container {
-        max-width: 768px;
-        padding: 0 32px;
-        margin: 0 auto;
-    }
-
-    .fact-adress {
-      padding-top: 16px;
-      padding-bottom: 16px;
-      margin-bottom: 0;
-    }
-
-    .location-adress-phone {
-      display: flex;
-      justify-content: space-between;
-    }
-.google-map {
-  width: 704px;
-  height: 576px;
 }
+
+@media screen and (min-width: 768px) {
+  .container {
+    max-width: 768px;
+    padding: 0 32px;
+    margin: 0 auto;
+  }
+
+  .location-adress {
+    padding-top: 80px;
+    padding-bottom: 80px;
+  }
+  
+  .location-title {
+    font-size: 68px;
+    line-height: calc(68 / 68);
+    max-width: 324px;
+    margin-bottom: 40px;
+  }
+
+  .fact-adress {
+    padding-top: 16px;
+    padding-bottom: 16px;
+    margin-bottom: 0;
+  }
+
+  .phone-number {
+    font-size: 18px;
+    line-height: calc(24 / 18);
+  }
+
+  .location-adress-phone {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .google-map {
+    width: 704px;
+    height: 576px;
+  }
 }
 
 @media screen and (min-width: 1440px) {
   .container {
-      max-width: 1440px;
-      padding: 0 64px;
-      margin: 0 auto;
+    max-width: 1440px;
+    padding: 0 64px;
+    margin: 0 auto;
   }
 
   .location-adress {
@@ -98,30 +120,28 @@ color: #121212;
   .location-title {
     margin-left: 736px;
     align-items: flex-start;
-    
   }
 
-.google-map{
-margin-top: -100px;
-margin-bottom: 0;
-width: 704px;
-  height: 576px;
-}
+  .google-map {
+    margin-top: -100px;
+    margin-bottom: 0;
+    width: 640px;
+    height: 524px;
+  }
 
-.location-adress-phone {
-  display: flex;
-  justify-content: start;
-  gap: 70px;
-  margin-top: -50px;
-}
-.phone-number {
-  display: flex;
-  gap: 12px;
-  align-items: flex-start;
-
-}
-.call-us {
-  margin-bottom: 0;
+  .location-adress-phone {
+    display: flex;
+    justify-content: start;
+    gap: 70px;
+    margin-top: -50px;
+  }
+  .phone-number {
+    display: flex;
+    gap: 12px;
+    align-items: flex-start;
+  }
+  .call-us {
+    margin-bottom: 0;
   }
 
   .fact-adress {
@@ -129,6 +149,4 @@ width: 704px;
     padding-top: 0;
     padding-bottom: 0;
   }
-
-
 }

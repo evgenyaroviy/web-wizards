@@ -4,9 +4,10 @@
 }
 .title-section-welcome {
   text-transform: uppercase;
-  font-weight: 500px;
+  font-weight: 500;
   font-size: 32px;
   line-height: 1.125;
+  letter-spacing: -0.02em;
   max-width: 100%;
   margin-bottom: 32px;
 }
@@ -15,20 +16,16 @@
 }
 .description-room {
   text-transform: uppercase;
-  font-weight: 400px;
+  font-weight: 400;
   font-size: 14px;
   line-height: calc(18 / 14);
   margin-bottom: 32px;
   max-width: 100%;
+  letter-spacing: -0.02em;
   margin-right: 29px;
 }
 .description-room-1 {
-  text-transform: uppercase;
-  font-weight: 400px;
-  font-size: 14px;
-  line-height: calc(18 / 14);
-  max-width: 100%;
-  letter-spacing: -0.02em;
+  margin-right: 0;
 }
 .description-complex {
   margin-bottom: 32px;
@@ -54,18 +51,19 @@
   }
   .description {
     display: flex;
-    justify-content: space-between;
+    gap: 32px;
   }
   .description-room {
     max-width: 306px;
     margin-right: 0px;
     margin-bottom: 0px;
+    letter-spacing: -0.016em;
   }
   .description-room-1 {
     max-width: 366px;
   }
   .description-complex {
-    margin-bottom: 50px;
+    margin-bottom: 40px;
   }
 }
 
@@ -96,9 +94,11 @@
 }
 .description-room {
   max-width: 437px;
+  letter-spacing: -0.02em;
 }
 .description-room-1 {
   max-width: 437px;
+  letter-spacing: -0.007em;
 }
 .complex {
   position: relative;

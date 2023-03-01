@@ -24,14 +24,14 @@ body {
 .slick-prev {
   top: 106%;
   left: 66%;
-  background-image: url(../../img/test-img/prev.svg);
+  background-image: url(./img/test-img/prev.svg);
   opacity: 1;
 }
 
 .slick-next {
   top: 106%;
   right: 0;
-  background-image: url(../../img/test-img/next.svg);
+  background-image: url(./img/test-img/next.svg);
   opacity: 1;
 }
 
@@ -43,13 +43,13 @@ body {
 .slick-next:hover,
 .slick-next:focus {
   opacity: 0.7;
-  background-image: url(../../img/test-img/next.svg);
+  background-image: url(./img/test-img/next.svg);
 }
 
 .slick-prev:hover,
 .slick-prev:focus {
   opacity: 0.7;
-  background-image: url(../../img/test-img/prev.svg);
+  background-image: url(./img/test-img/prev.svg);
 }
 
 .slider-line {

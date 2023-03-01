@@ -54,18 +54,26 @@
     margin-bottom: 32px;
 }
 
-.modal-select {
+.modal-select,
+.modal-select-3 {
     margin-bottom: 40px;
 }
+.table {
+    margin-bottom: 0;
+}
+
+.table,
 .modal-input,
-.modal-select {
+.modal-select,
+.modal-select-3 {
     display: flex;
     width: 287px;
         flex-flow: column wrap;
     gap: 32px;
 }
 
-.tel-wrap {
+.tel-wrap,
+.select-wrap-price {
     order: 2;
 }
 
@@ -116,7 +124,9 @@
         color: var(--main-light-color);
     }
 
-.select-wrap {
+.select-wrap,
+.select-wrap-price,
+.select-wrap-price1 {
     position: relative;
 }
 
@@ -155,7 +165,7 @@
     cursor: pointer;
 }
 
-.modal-open a {
+/* .modal-open a {
     padding: 20px;
     display: inline-block;
     text-decoration: none;
@@ -164,6 +174,8 @@
     color: #fff;
     border-radius: 3px;
 }
+
+*/
 
 .btn-info {
     display: flex;
@@ -191,21 +203,36 @@ color: var(--main-modal-color);
     border: 0.8px solid var(--main-dark-color);
 }
 
-.js-open-modal {
+/* .js-open-modal {
     width: 20px;
     height: 20px;
 }
 
+*/ .modal-select-name {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: calc(18/16);
+    letter-spacing: -0.02em;
+    text-transform: uppercase;
+    margin-bottom: 24px;
+}
+
+.select-wrap-price1 {
+    display: none;
+}
 }
 
 
 @media screen and (min-width: 768px) {
 
-    .modal {
-            width: 628px;
-            padding: 32px 32px 60px 32px;
-            }
+.modal {
+        width: 628px;
+        padding: 32px 32px 60px 32px;
+    }
 
+.italic-modal-3 {
+    font-style: italic;
+}
 .info,
 .info-select {
     display: flex;
@@ -216,7 +243,30 @@ color: var(--main-modal-color);
     margin-bottom: 40px;
 }
 
-.modal-select {
+.modal-input-table,
+.modal-input-table2 {
+    display: flex;
+    gap: 32px;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.modal-select-prices {
+    display: flex;
+    gap: 32px;
+}
+
+.modal-select-3 {
+    display: flex;
+    flex-flow: row;
+}
+
+.modal-select,
+.modal-select-3 {
     margin-bottom: 80px;
 }
 
@@ -224,14 +274,16 @@ color: var(--main-modal-color);
 .modal-select {
     display: flex;
     width: 266px;
-        flex-flow: inherit;
+        flex-flow: row;
     }
 
-.tel-wrap {
+.tel-wrap,
+.select-wrap-price1 {
     order: 1;
 }
 
-.select-wrap {
+.select-wrap,
+.select-wrap-price1 {
     order: 2;
 }
 
@@ -257,6 +309,13 @@ color: var(--main-modal-color);
     padding: 14px 133px;
 }
 
+.select-wrap-price1 {
+    display: block;
+}
+
+.select-wrap-price {
+    display: none;
+}
 }
 
 @media screen and (min-width: 1440px) {

@@ -41,3 +41,7 @@
 @import url('./layout/pages/room/hero.css');
 @import url('./layout/pages/room/amenities.css');
 @import url('./layout/pages/room/modal.css');
+
+/* slik */
+@import url('./layout/slick.css');
+@import url('./layout/rest-slick.css');

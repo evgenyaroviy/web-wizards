@@ -1,25 +1,117 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Hotel</title>
 
-<head>
-  <meta charset="UTF-8" />
-  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Hotel</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <link href="https://fonts.cdnfonts.com/css/geometria" rel="stylesheet" />
 
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&display=swap" rel="stylesheet">
-  <link href="https://fonts.cdnfonts.com/css/geometria" rel="stylesheet">
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css"
+      integrity="sha512-wpPYUAdjBVSE4KJnH1VR1HeZfpl1ub8YT/NKx4PuQ5NmX2tKuGu6U/JRp5y+Y8XG2tV+wKQpNHVUX03MfMFn9Q=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
 
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css"
-    integrity="sha512-wpPYUAdjBVSE4KJnH1VR1HeZfpl1ub8YT/NKx4PuQ5NmX2tKuGu6U/JRp5y+Y8XG2tV+wKQpNHVUX03MfMFn9Q=="
-    crossorigin="anonymous" referrerpolicy="no-referrer" />
+    
+    <link rel="stylesheet" href="./css/about-kitchen.css" />
+    <script type="module" crossorigin src="/web-wizards/assets/mob-menu-13d4eed9.js"></script>
+    <link rel="stylesheet" href="/web-wizards/assets/mob-menu-9ddf7409.css">
+  </head>
 
-  
-  <script type="module" crossorigin src="/web-wizards/assets/mob-menu-13d4eed9.js"></script>
-  <link rel="stylesheet" href="/web-wizards/assets/mob-menu-bc54b87d.css">
-</head>
+  <body>
+    <div class="container">
+      <header class="header">
+  <div class="container ">
+    <nav class="nav">
+      <ul class="header-menu-list">
+        <li class="header-menu-item"><a href="" class="header-menu-link">Home</a></li>
+        <li class="header-menu-item"><a href="../hotel.html" class="header-menu-link">Hotel</a></li>
+        <li class="header-menu-item"><a href="" class="header-menu-link">Restaurant</a></li>
+      </ul>
+      <button type="button" data-menu-open class="button-mob">
+        <svg class="menu-svg" width="24px" height="16px">
+          <use class="icon" href="../img/symbol-defs.svg#icon-Icon"></use>
+        </svg>
+      </button>
+      <a href="/" class="logo">Mimino <span class="logo-text">restaurant-hotel complex</span></a>
+      <ul class="header-list">
+        <li class="header-item">
+          <a href="https://www.instagram.com/" target="_blank" rel="noreferrer noopener" class="header-link-svg">
+            <svg class="header-soc-svg">
+              <use href="../img/symbol-defs.svg#icon-instagram"></use>
+            </svg>
+          </a>
+        </li>
+        <li class="header-item">
+          <a href="https://www.facebook.com/" target="_blank" rel="noreferrer noopener" class="header-link-svg">
+            <svg class="header-soc-svg">
+              <use href="../img/symbol-defs.svg#icon-facebook"></use>
+            </svg>
+          </a>
+        </li>
+        <li class="header-item">
+          <a href="https://twitter.com/" target="_blank" rel="noreferrer noopener" class="header-link-svg">
+            <svg class="header-soc-svg">
+              <use href="../img/symbol-defs.svg#icon-twitter"></use>
+            </svg>
+          </a>
+        </li>
+        </ul>
+        </nav>
+  </div>
+  <!--------------menu------------>
+  <div class="cont-mob-manu is-hidden" data-menu>
+    <div class="mob-cont">
+      <div class="cont">
+        <button type="button" data-menu-close class="button-mob">
+          <svg class="menu-svg" width="24px" height="16px">
+            <use class="" href="../img/symbol-defs.svg#icon-cross"></use>
+          </svg>
+        </button>
+        <a href="/" class="logo">Mimino <span class="logo-text">restaurant-hotel complex</span></a>
+      </div>
+      <ul class="menu-list">
+        <li class="menu-item"><a href="" class="menu-link">Home</a></li>
+        <li class="menu-item"><a href="" class="menu-link">Hotel</a></li>
+        <li class="menu-item"><a href="" class="menu-link">Restaurant</a></li>
+      </ul>
+      <ul class="menu-soc-list">
+        <li class="menu-soc-item">
+          <a href="https://www.instagram.com/" target="_blank" rel="noreferrer noopener" class="header-link-svg">
+            <svg class="menu-soc-svg">
+              <use href="../img/symbol-defs.svg#icon-instagram"></use>
+            </svg>
+          </a>
+        </li>
+        <li class="menu-soc-item">
+          <a href="https://www.facebook.com/" target="_blank" rel="noreferrer noopener" class="header-link-svg">
+            <svg class="menu-soc-svg">
+              <use href="../img/symbol-defs.svg#icon-facebook"></use>
+            </svg>
+          </a>
+        </li>
+        <li class="menu-soc-item">
+          <a href="https://twitter.com/" target="_blank" rel="noreferrer noopener" class="header-link-svg">
+            <svg class="menu-soc-svg">
+              <use href="../img/symbol-defs.svg#icon-twitter"></use>
+            </svg>
+          </a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</header>
+    </div>
 
 <body>
   

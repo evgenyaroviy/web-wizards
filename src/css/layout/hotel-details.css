@@ -32,6 +32,7 @@
 
 .button-hotel-details-list {
   justify-content: center;
+  align-items: center;
   display: flex;
   column-gap: 12px;
 }
@@ -154,11 +155,12 @@
     max-width: 1440px;
     padding: 0 32px;
     margin: 0 auto;
+    position: relative;
   }
 
   .hotel-details {
     padding-bottom: 60px;
-    position: relative;
+    
   }
 
   .proposition-hotel-details {
@@ -168,9 +170,10 @@
   .button-hotel-details {
     position: absolute;
     top: 0;
-    right: 32px;
+    right: 0px;
     margin: 0;
     padding-top: 44px;
+    padding-left: 32px;
   }
 
   .button-hotel-details-list {
@@ -186,6 +189,7 @@
 
   .book-stay {
     margin-bottom: 80px;
+    padding-top: 51px;
 }
 
 .tablet {
@@ -201,7 +205,7 @@
   }
 
 .hotel-details-photo {
-  column-gap: 28px;
+  gap: 28px;
 }
 
 .photo4-5,

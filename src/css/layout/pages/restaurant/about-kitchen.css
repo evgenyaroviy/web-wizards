@@ -12,13 +12,16 @@
   display: block;
   width: 100%;
 }
+.txt-italic {
+  font-style: italic;
+}
 
-.picture {
+/* .picture {
   max-width: 100%;
   height: auto;
   display: block;
   width: 100%;
-}
+} */
 
 @media screen and (min-width: 375px) and (max-width: 768px) {
   .container {
@@ -26,23 +29,32 @@
     padding: 0 20px;
     margin: 0 auto;
   }
-  /* .cook-siz {
-    width: 335px;
-    height: 443px;
-  } */
+
   .drink-siz {
-    height: 149px;
+    width: 157px;
+    height: auto;
+  }
+
+  .meat-siz {
+    width: 158px;
+    height: auto;
   }
 
   .kitchen {
     margin-bottom: 32px;
   }
+
   .inform-containe {
     display: flex;
     max-width: 375px;
     padding: 0 20px;
-    margin: 0 auto;
+    margin-top: 32px;
   }
+
+  .posishin-tab {
+    margin-bottom: 32px;
+  }
+
   .inform {
     font-family: 'DM Sans';
     font-style: normal;
@@ -58,14 +70,17 @@
     justify-content: center;
     align-items: center;
   }
+
   .kitchen-list {
     display: flex;
     flex-wrap: nowrap;
     gap: 20px;
   }
+
   .kitchen-link {
     display: flex;
   }
+
   .cook {
     margin-bottom: 20px;
   }
@@ -73,6 +88,7 @@
   .link-kitchen-inf:not(:last-child) {
     margin-bottom: 24px;
   }
+
   .container-kitchen {
     padding-bottom: 64px;
   }
@@ -84,35 +100,72 @@
     padding: 0 32px;
     margin: 0 auto;
   }
-
-  .kitchen {
-    display: flex;
-    flex-wrap: nowrap;
-    flex-direction: row-reverse;
-    gap: 32px;
+  .cook {
     margin-bottom: 40px;
   }
+
   .cook-siz {
     width: 388px;
-    min-height: 515px;
+    height: auto;
+  }
+  .meat-siz {
+    width: 284px;
+    height: auto;
   }
 
-  .kitchen-list {
+  .drink-siz {
+    width: 284px;
+    height: auto;
+  }
+  .mimino-siz {
+    width: 349px;
+    height: 144px;
+  }
+  .our-siz {
+    width: 323px;
+    height: 144px;
+  }
+
+  .kitchen-list-cook {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    row-gap: 16px;
+  }
+  .kitchen-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 16px;
+  }
+
+  .posishin-tab {
+    display: flex;
+    flex-direction: row-reverse;
+    gap: 32px;
+    justify-content: center;
+  }
+
+  .inftab {
+    display: flex;
+    flex-direction: row;
+    gap: 32px;
+    justify-content: center;
+  }
+  .inform {
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.29;
+    letter-spacing: -0.02em;
+    text-transform: uppercase;
+    color: #000000;
+  }
+  .link-kitchen-inf {
+    display: flex;
   }
 
   .kitchen-link {
     display: flex;
-  }
-  .inftab {
-    display: flex;
-    flex-wrap: nowrap;
-    gap: 32px;
-    justify-content: center;
-    align-items: center;
   }
   .inform-containe {
     display: flex;
@@ -120,8 +173,10 @@
     padding: 0 20px;
     margin: 0 auto;
   }
-
-  .container-kitchen {
+  .inform {
+    display: flex;
+  }
+  */ .container-kitchen {
     padding-bottom: 80px;
   }
 }
@@ -132,49 +187,90 @@
     padding: 0 32px;
     margin: 0 auto;
   }
+  .kitchen {
+    position: relative;
+  }
+  .container-kitchen {
+    max-width: 1440px;
+    padding: 0 32px;
+    margin: 0 auto;
+
+    padding-bottom: 100px;
+    justify-content: center;
+  }
+  .inform-container {
+    margin-top: 32px;
+  }
+  /* .cook {
+    order: 1;
+  }
+  .kitchen-meal {
+    position: absolute;
+    top: 0;
+    right: 32px;
+  } */
+
+  /* .mimino-siz {
+    position: absolute;
+    top: 489px;
+    right: auto;
+  }
+  .our-siz {
+    position: absolute;
+    top: 489px;
+    right: 0;
+  } */
+
+  .cook-siz {
+    width: 511px;
+    height: auto;
+  }
+  .meat-siz {
+    width: 334px;
+    min-height: 389px;
+  }
+
+  .drink-siz {
+    width: 467px;
+    height: auto;
+  }
+  .mimino-siz {
+    width: 334px;
+    height: auto;
+  }
+  .our-siz {
+    width: 467px;
+    height: auto;
+  }
 
   .kitchen-list {
+  }
+  .kitchen-list-cook {
+  }
+  .kitchen container {
+  }
+
+  .kitchen-list {
+    align-items: flex-start;
     display: flex;
     flex-wrap: nowrap;
     gap: 32px;
-  }
-
-  .cook {
-    order: 1;
+    position: absolute;
+    top: 0;
+    right: 32px;
   }
   .inftab {
     display: flex;
     flex-wrap: nowrap;
     gap: 32px;
-  }
-  /* .inform-containe {
-    display: flex;
-    max-width: 375px;
-    padding: 0 20px;
-    margin: 0 auto;
+    top: 389px;
+    right: 0;
+    position: absolute;
+    justify-content: center;
+    align-items: flex-start;
   }
 
-   .cook-siz {
-    width: 511px;
-    height: 598px;
-  } 
-  
-  .cook {
-    display: flex;
-    flex-wrap: nowrap;
-  }
-  
-  .kitchen-link {
-    display: flex;
-  }
-  .kitchen-list {
-    flex-direction: row;
-    flex-wrap: wrap;
-    row-gap: 16px;
-  }
   .inform {
-    width: 453px;
-    height: 120px;
     font-family: 'DM Sans';
     font-style: normal;
     font-weight: 500;
@@ -183,15 +279,69 @@
     letter-spacing: -0.02em;
     text-transform: uppercase;
     color: #000000;
-  } 
-  .kitchen {
     display: flex;
   }
+
+  .cook {
+    position: absolute;
+    top: 0px;
+    left: 32px;
+  }
+  /* .kitchen-list-cook {
+    display: flex;
+    flex-direction: row-reverse;
+  } */
+
+  /* .kitchen-list {
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    gap: 32px;
+  }
   .kitchen-list {
+  }
+  .cook-siz > picture {
+    align-self: flex-start;
+  }
+  .cook-siz {
+    width: 511px;
+    min-height: 598px;
+    padding-left: 32px;
+  }
+  .kitchen-list > {
+  }
+  .cook {
+    margin-right: 32px;
+  }
+  .inftab {
     display: flex;
     flex-wrap: nowrap;
     gap: 32px;
+    justify-content: center;
+    align-items: center;
   }
+
   
-  */
+  .kitchen-meal {
+    margin-bottom: 32px;
+  }
+  .kitchen {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    row-gap: 32px;
+  }
+  .link-kitchen-inf {
+    display: flex;
+    gap: 32px;
+  }
+
+  .kitchen {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    row-gap: 32px;
+  } */
 }

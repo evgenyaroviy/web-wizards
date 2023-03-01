@@ -94,6 +94,10 @@
 
 /* Tablet */
 @media screen and (min-width: 768px) {
+  .triple {
+    padding-left: 0px;
+    padding-right: 0px;
+  }
   .triple__picture-block {
     display: flex;
     margin-bottom: 40px;
@@ -161,22 +165,33 @@
     margin-bottom: 40px;
   }
   .triple__picture-block {
-    display: flex;
+    display: block;
+    position: relative;
+    height: 762px;
+    margin-bottom: 50px;
   }
   .triple__room {
-    margin-bottom: 0px;
-    margin-right: 32px;
+    width: 539px;
+    height: 762px;
+    margin-right: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
   }
   .triple__picture-set {
-    flex-wrap: wrap;
-    margin-bottom: 0px;
-    justify-content: flex-start;
+    height: 762px;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    align-items: center;
   }
 
   .triple__bath {
-    margin-bottom: 32px;
+    width: 386px;
+    height: 395px;
   }
   .triple__kitchen {
+    width: 387px;
   }
 
   .triple__position {

@@ -78,6 +78,10 @@
 
 /* Tablet */
 @media screen and (min-width: 768px) {
+  .seaters {
+    padding-left: 0px;
+    padding-right: 0px;
+  }
   .seaters__title {
     font-size: 40px;
     line-height: calc(44 / 40);
@@ -136,5 +140,34 @@
     line-height: calc(24 / 18);
     padding-top: 9px;
     padding-bottom: 9px;
+  }
+
+  .seaters__pic {
+    display: block;
+    position: relative;
+    height: 762px;
+    margin-bottom: 50px;
+  }
+  .seaters__room {
+    width: 539px;
+    height: 762px;
+    margin-right: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  .seater__picture-set {
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row-reverse;
+    height: 762px;
+    margin-right: 0px;
+  }
+  .seaters__bath {
+    width: 386px;
+  }
+  .seaters__kitchen {
+    width: 387px;
   }
 }

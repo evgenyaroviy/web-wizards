@@ -1,0 +1,275 @@
+.about {
+  padding: 64px 0;
+}
+
+.visually-hidden {
+  position: absolute;
+  white-space: nowrap;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  border: 0;
+  padding: 0;
+  clip: rect(0 0 0 0);
+  clip-path: inset(50%);
+  margin: -1px;
+}
+
+.about-subtitle {
+  font-size: 12px;
+  line-height: calc(14 / 12);
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+  color: #484848;
+  margin-bottom: 18px;
+}
+
+.about-text {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: calc(18 / 14);
+  letter-spacing: -0.02em;
+  text-transform: uppercase;
+  color: var(--main-dark-color);
+}
+
+.about-complex-text1 {
+  margin-bottom: 14px;
+}
+
+.about-complex-images {
+  position: relative;
+  margin-bottom: 32px;
+}
+
+img {
+  max-width: 100%;
+}
+
+.about-complex-img1 {
+  margin-bottom: 20px;
+}
+
+.about-complex {
+  margin-bottom: 64px;
+}
+
+.about-business-img1 {
+  margin-bottom: 54px;
+}
+
+.about-business-content {
+  margin-bottom: 40px;
+  width: 263px;
+}
+
+.about-client-maria {
+  width: 212px;
+  background-color: var(--main-dark-color);
+  box-shadow: 1px 7px 22px rgba(0, 0, 0, 0.1);
+  border-radius: 6px;
+  display: flex;
+  padding: 10px 14px;
+  gap: 12px;
+  align-items: center;
+  position: absolute;
+  right: 0;
+  top: 68.5%;
+}
+
+.about-client-img {
+  border-radius: 50%;
+}
+
+.about-client-name {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: calc(14 / 14);
+  color: var(--main-modal-color);
+  margin-bottom: 7px;
+}
+
+.about-client-text {
+  font-size: 12px;
+  line-height: 133.02%;
+  color: #575757;
+}
+
+.about-client-grade {
+  font-size: 12px;
+  line-height: 133.02%;
+  color: #f7f7f7;
+}
+
+.about-business-images {
+  position: relative;
+}
+
+.about-client-alex {
+  width: 212px;
+  background-color: var(--main-dark-color);
+  box-shadow: 1px 7px 22px rgba(0, 0, 0, 0.1);
+  border-radius: 6px;
+  display: flex;
+  padding: 10px 14px;
+  gap: 12px;
+  align-items: center;
+  position: absolute;
+  left: 0;
+  top: 87.5%;
+}
+
+@media screen and (min-width: 375px) {
+  .container {
+    max-width: 375px;
+    padding: 0 20px;
+    margin: 0 auto;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .container {
+    max-width: 768px;
+    padding: 0 32px;
+    margin: 0 auto;
+  }
+
+  .about {
+    padding: 80px 0;
+  }
+
+  .about-text {
+    font-size: 18px;
+    line-height: calc(24 / 18);
+    width: 472px;
+  }
+
+  .about-complex-text1 {
+    margin-bottom: 14px;
+  }
+
+  .about-complex-images {
+    position: relative;
+    margin-bottom: 32px;
+  }
+
+  img {
+    max-width: 100%;
+  }
+
+  .about-complex-img1 {
+    margin-bottom: 32px;
+  }
+
+  .about-complex {
+    margin-bottom: 80px;
+  }
+
+  .about-complex-img2 {
+    position: absolute;
+    right: 0;
+    top: 33%;
+  }
+
+  .about-client-maria {
+    z-index: 2;
+    position: absolute;
+    right: 17%;
+    top: 27.8%;
+  }
+
+  .about-business-img1 {
+    margin-bottom: 40px;
+    margin-left: auto;
+  }
+
+  .about-business-content {
+    margin-bottom: 0;
+    width: 263px;
+  }
+
+  .about-client-alex {
+    left: 67px;
+    top: 61.7%;
+  }
+
+  .about-complex-content-box {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: left;
+    gap: 32px;
+  }
+
+  .about-business-text {
+    width: 350px;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .container {
+    max-width: 1440px;
+    padding: 0 32px;
+    margin: 0 auto;
+  }
+  .about {
+    padding: 100px 0;
+  }
+
+  .about-complex-subtitle {
+    margin-top: 199px;
+  }
+
+  .about-text {
+    width: 530px;
+  }
+
+  .about-complex {
+    margin-bottom: 100px;
+  }
+
+  .about-complex-img2 {
+    left: 300px;
+    top: 209px;
+  }
+
+  .about-client-maria {
+    z-index: 2;
+    position: absolute;
+    top: 176px;
+    left: 370px;
+  }
+
+  .about-complex-images {
+    margin-bottom: 0;
+  }
+
+  .about-complex {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .about-business {
+    width: 1200px;
+    margin-left: auto;
+    position: relative;
+  }
+
+  .about-business-img1 {
+    margin-left: auto;
+  }
+
+  .about-client-alex {
+    left: 563px;
+    top: 303px;
+  }
+
+  .about-complex-content-box {
+    position: absolute;
+    top: 127px;
+    gap: 54px;
+  }
+
+  .about-business-text {
+    width: 100%;
+  }
+}

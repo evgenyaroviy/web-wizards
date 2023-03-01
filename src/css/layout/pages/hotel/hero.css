@@ -1,0 +1,133 @@
+
+.slider {
+  background-color: aqua;
+  height: 429px;
+  margin-bottom: 100px;
+}
+
+.hero-hotel {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  padding-top: 40px;
+  background: #f7f7f7;
+}
+
+.hero-hotel-title {
+  font-weight: 400;
+  font-size: 40px;
+  line-height: 1;
+  letter-spacing: -0.02em;
+  text-transform: uppercase;
+  color: #121212;
+  margin-bottom: 24px;
+}
+
+.hero-hotel-buttons {
+  display: flex;
+  gap: 14px;
+}
+
+.hero-hotel-btn {
+  padding: 8px 18px;
+  border: 0.8px solid #121212;
+  border-radius: 32px;
+  margin-bottom: 40px;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 18px;
+  letter-spacing: -0.02em;
+  text-transform: uppercase;
+  color: #121212;
+}
+
+.hero-hotel-btn:hover,
+.hero-hotel-btn:focus {
+  background: #121212;
+  border: 0.8px solid #121212;
+  color: #f7f7f7;
+}
+
+.hero-hotel-sub {
+  font-size: 14px;
+  line-height: calc(18 / 14);
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  color: #121212;
+  width: 338px;
+}
+
+
+@media screen and (min-width: 768px) {
+
+  .hero-hotel-title {
+    font-size: 80px;
+    line-height: 1;
+    margin-bottom: 32px;
+  }
+
+  .hero-hotel-btn {
+    font-size: 14px;
+    line-height: calc(24 / 14);
+    padding: 8px 24px;
+    margin-bottom: 54px;
+  }
+
+  .slider {
+    margin-bottom: 40px;
+  }
+
+}
+
+@media screen and (min-width: 1440px) {
+  .hero-hotel {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .hero-title-btn-wrap {
+    display: flex;
+   flex-direction: column;
+  }
+
+  .hero-hotel-section {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .hero-hotel-section {
+    align-items: center;
+    justify-content: center;
+  }
+
+  .hero-hotel-txt {
+    display: flex;
+    align-items: center;
+    gap: 345px;
+  }
+
+  .hero-hotel-title {
+    font-size: 90px;
+    line-height: 1;
+    margin-bottom: 32px;
+  }
+
+  .hero-hotel-btn {
+    font-size: 18px;
+    line-height: calc(24 / 18);
+    padding: 9px 24px;
+    margin: 0;
+  }
+
+  .hero-hotel-sub {
+    position: absolute;
+    top: 650px;
+  }
+
+  .slider {
+    width: 700px;
+    height: 580px;
+    margin-bottom: 0;
+  }
+}

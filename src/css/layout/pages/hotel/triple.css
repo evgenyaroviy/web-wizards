@@ -23,13 +23,9 @@
 
 .triple__title {
     margin-bottom: 32px;
-    font-family: 'DM Sans';
-    font-style: normal;
     font-weight: 700;
     font-size: 32px;
     line-height: calc(40 / 32);
-    /* identical to box height, or 125% */
-
     letter-spacing: -0.02em;
     text-transform: uppercase;
 
@@ -38,10 +34,6 @@
 
 .triple__description {
     margin-bottom: 24px;
-    font-family: 'DM Sans';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 14px;
     line-height: calc(18 / 14);
 
     letter-spacing: -0.02em;
@@ -69,13 +61,7 @@
 
 .triple__info-button {
     padding: 8px 18px 8px 18px;
-    font-family: 'DM Sans';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 14px;
     line-height: calc(18 / 14);
-    /* identical to box height, or 129% */
-
     letter-spacing: -0.02em;
     text-transform: uppercase;
 
@@ -85,6 +71,13 @@
     border-radius: 32px;
 }
 
+.triple__info-button:hover,
+.triple__info-button:focus {
+    color: var(--main-light-color);
+    background-color: var(--main-dark-color);
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+        color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
 .details {
     margin-right: 14px;
 }

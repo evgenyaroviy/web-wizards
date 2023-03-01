@@ -14,12 +14,19 @@
 
 
 .amenities {
+    background-color: var(--main-light-color);
+    
+    }
+    
+    .amenities .container {
+        width: 375px;
     background-color: var(--main-dark-color);
     color: var(--main-light-color);
     padding-top: 40px;
     padding-bottom: 64px;
     padding-left: 20px;
     padding-right: 20px;
+    margin: 0 auto;
 }
 
 .amenities-list {
@@ -102,15 +109,12 @@
 
 @media screen and (min-width: 768px) {
 
-    .amenities {
+.amenities .container {
         width: 768px;
-            margin: 0 auto;
-    padding-bottom: 80px;
-    padding-top: 80px;
+        margin: 0 auto;
+            padding-bottom: 80px;
+            padding-top: 80px;
     }
-
-    
-    
 
     .img-care-products {
     top: 156px;
@@ -149,15 +153,11 @@
 
 @media screen and (min-width: 1440px) {
 
-    .amenities {
+.amenities .container {
     width: 1440px;
-        margin: 0 auto;
-    padding-bottom: 94px;
-    padding-top: 100px;
-    }
-
-    .container {
-        max-width: 1176px;
+    margin: 0 auto;
+        padding-bottom: 94px;
+        padding-top: 100px;
     }
 
 

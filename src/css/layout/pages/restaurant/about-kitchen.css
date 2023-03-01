@@ -5,14 +5,14 @@
 @media screen and (min-width: 375px) {
 
   .about-a-kitchen {
-    width: 375px;
-    margin: 0 auto;
     background-color: var(--main-modal-color);
+    padding-top: 64px;
+      padding-bottom: 64px;
   }
 
   .container {
     max-width: 375px;
-    padding: 0 20px;
+    padding: 20px;
     margin: 0 auto;
     
   }
@@ -48,13 +48,16 @@
     display: flex;
     flex-direction: column;
     gap: 24px;
-  }
+    }
+    
+    
+    .kitchen-item img {
+      width: 100%;
+    }
 }
 @media screen and (min-width: 768px) {
-.about-a-kitchen {
-    width: 768px;
-  }
-  .container {
+
+  .about-a-kitchen {
     padding-top: 80px;
     padding-bottom: 80px;
     
@@ -89,15 +92,16 @@
     flex-direction: row;
     gap: 32px;
   }
+
 }
 
 @media screen and (min-width: 1440px) {
 .about-a-kitchen {
-    width: 1440px;
     padding-top: 100px;
     padding-bottom: 100px;
   }
   .container {
+    width: 1440px;
     padding-top: 100px;
     padding-bottom: 100px;
     

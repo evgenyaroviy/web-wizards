@@ -1,7 +1,7 @@
-.hero {
+.hero-rest {
     margin-left: auto;
     margin-right: auto;
-    background-color: #D8D8D8;
+    background-color: #f6f6f6;
     padding-top: 40px;
     padding-bottom: 64px;
 }
@@ -79,7 +79,6 @@
     }
 
 .hero-rest {
-    width: 1440px;
     margin: 0 auto;
     padding-top: 40px;
     padding-bottom: 40px;

@@ -1,10 +1,11 @@
+.double {
+  width: 375px;
+  margin: 0 auto;
+}
 .double-picture-block {
   display: flex;
   flex-direction: column;
   gap: 20px;
-}
-
-.double-room {
 }
 
 .double-picture-set {
@@ -16,8 +17,7 @@
 
 .double-title {
   margin-bottom: 32px;
-  font-family: 'DM Sans';
-  font-style: normal;
+
   font-weight: 700;
   font-size: 32px;
   line-height: calc(40 / 32);
@@ -28,10 +28,6 @@
 
 .double-txt {
   margin-bottom: 24px;
-  font-family: 'DM Sans';
-  font-style: normal;
-  font-weight: 400;
-  font-size: 14px;
   line-height: calc(18 / 14);
   letter-spacing: -0.02em;
   text-transform: uppercase;
@@ -47,10 +43,6 @@
   color: #121212;
 }
 .double-facilities {
-  font-family: 'DM Sans';
-  font-style: normal;
-  font-weight: 400;
-  font-size: 14px;
   line-height: calc(18px / 14px);
   letter-spacing: -0.02em;
   text-transform: uppercase;
@@ -67,11 +59,6 @@
 }
 
 .double-info-button {
-  padding: 8px 18px 8px 18px;
-  font-family: 'DM Sans';
-  font-style: normal;
-  font-weight: 400;
-  font-size: 14px;
   line-height: calc(18 / 14);
   letter-spacing: -0.02em;
   text-transform: uppercase;
@@ -81,8 +68,19 @@
   border-radius: 32px;
 }
 
+.double-info-button:hover,
+.double-info-button:focus {
+  color: var(--main-light-color);
+  background-color: var(--main-dark-color);
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
 /* Tablet */
 @media screen and (min-width: 768px) {
+.double {
+    width: 768px;
+    margin: 0 auto;
+  }
   .double-picture-block {
     display: flex;
     flex-direction: row-reverse;
@@ -154,6 +152,11 @@
 
 /* Desk-Top */
 @media screen and (min-width: 1440px) {
+.double {
+    width: 1440px;
+    padding: 0 32px;
+    margin: 0 auto;
+  }
   .double-title {
     margin-bottom: 40px;
   }

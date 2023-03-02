@@ -154,6 +154,11 @@
   .item-ingradients {
     width: 233px;
   }
+.menu-dishes-snacks,
+.menu-salads,
+.menu-desserts-drinks {
+  display: none;
+}
 }
 
 @media screen and (min-width: 768px) {
@@ -303,4 +308,9 @@
     margin-left: 169px;
     margin-top: 68px;
   }
+.menu-dishes-snacks,
+.menu-salads,
+.menu-desserts-drinks {
+  display: block;
+}
 }

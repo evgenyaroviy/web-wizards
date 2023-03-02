@@ -104,27 +104,22 @@
 
 .restaurant-menu-slaider-left,
 .restaurant-menu-slaider-right {
-  width: 30px;
-    height: 30px;
   cursor: pointer;
   border: none;
   background-color: #121212;
-  stroke: rgba(247, 247, 247, 0.3);
+  fill: rgba(247, 247, 247, 0.3);
   padding: 0px;
   transition: fill 250ms linear;
 }
 
-.button-icon-svg {
-  stroke: rgba(247, 247, 247, 0.3);
-}
 .restaurant-menu-slaider-left:hover,
 .restaurant-menu-slaider-left:focus {
-  stroke: #f7f7f7;
+  fill: #f7f7f7;
 }
 
 .restaurant-menu-slaider-right:hover,
 .restaurant-menu-slaider-right:focus {
-  stroke: #f7f7f7;
+  fill: #f7f7f7;
 }
 
 .restaurant-menu-button {
@@ -312,10 +307,12 @@
     padding: 9px 24px;
     margin-left: 169px;
     margin-top: 68px;
-  }
+  
+}
 .menu-dishes-snacks,
 .menu-salads,
 .menu-desserts-drinks {
   display: block;
 }
+
 }

@@ -16,7 +16,7 @@
 
 /* layout */
 @import url('./layout/header.css');
-@import url('./layout/hero.css');
+
 @import url('./layout/about.css');
 @import url('./layout/rest-details.css');
 @import url('./layout/complex.css');

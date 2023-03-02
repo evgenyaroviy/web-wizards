@@ -40,13 +40,13 @@
 .slick-next:hover,
 .slick-next:focus {
   opacity: 0.7;
-  background-image: url(./img/slide-img/next.svg);
+  background-image: url(../img/slide-img/next.svg);
 }
 
 .slick-prev:hover,
 .slick-prev:focus {
   opacity: 0.7;
-  background-image: url(./img/slide-img/prev.svg);
+  background-image: url(../img/slide-img/prev.svg);
 }
 
 .slider-line {

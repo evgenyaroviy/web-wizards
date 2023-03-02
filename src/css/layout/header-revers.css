@@ -262,12 +262,11 @@
 
 @media screen and (min-width: 1440px) {
     .header-revers {
-        width: 1440px;
-        background-color: black;
+        max-width: 1440px;
         width: 100%;
         top: 0;
         left: 0;
-        background-color: transparent;
+        background-color: #ffffff;
 
     }
 

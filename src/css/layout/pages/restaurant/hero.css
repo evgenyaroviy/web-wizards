@@ -1,8 +1,7 @@
-/* ======restaurant-hero========= */
-.hero {
+.hero-rest {
     margin-left: auto;
     margin-right: auto;
-    background-color: #D8D8D8;
+    background-color: #f6f6f6;
     padding-top: 40px;
     padding-bottom: 64px;
 }
@@ -41,7 +40,7 @@
 
 .hero-btn:is(:hover, :focus) {
     background-color: var(--main-dark-color);
-    color: var(--main-modal-color);
+        color: var(--main-modal-color);
 }
 
 .hero-text {
@@ -63,7 +62,6 @@
 }
 
 /* =====restaurant-hero/========= */
-
 /* =====restaurant-hero-mob========= */
 @media screen and (min-width: 375px) {
     .conteiner {
@@ -72,7 +70,6 @@
 }
 
 /* =====restaurant-hero-mob/========= */
-
 /* =========restaurant-hero-tab============ */
 @media screen and (min-width: 768px) {
     .conteiner {
@@ -81,11 +78,12 @@
         padding-right: 34px;
     }
 
-    .hero {
-        padding-top: 40px;
-        padding-bottom: 40px;
-        background-color: var(--main-modal-color);
-    }
+.hero-rest {
+    margin: 0 auto;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    background-color: var(--main-modal-color);
+}
 
     .hero-title {
         font-size: 80px;
@@ -111,7 +109,6 @@
 }
 
 /* =========restaurant-hero-tab============ */
-
 /* =========restaurant-hero-desktop========= */
 @media screen and (min-width: 1440px) {
     .conteiner {

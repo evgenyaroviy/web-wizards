@@ -1,9 +1,6 @@
 * {
   margin: 0;
 }
-body {
-  background: #d8d8d8;
-}
 
 .container {
   margin: 0 auto;
@@ -87,15 +84,15 @@ body {
     padding: 0 32px;
   }
 
-  .slick-prev {
-  top: 110.5%;
-  left: 66%;
-}
 
-.slick-next {
-  top: 110.5%;
-}
-
+    .slick-prev {
+      top: 110.5%;
+      left: 66%;
+    }
+  
+    .slick-next {
+      top: 110.5%;
+    }
   .slider {
     width: 736px;
   }

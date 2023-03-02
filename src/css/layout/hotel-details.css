@@ -1,9 +1,13 @@
 .hotel-details {
+  background-color: #f8f8f8;
+  
+  }
+  
+  .hotel-details .container {
   background-color: #121212;
   padding-top: 32px;
-  padding-bottom: 32px;
+    padding-bottom: 32px;
 }
-
 .title-hotel-details {
   font-weight: 500;
   font-size: 40px;
@@ -84,7 +88,7 @@
 @media screen and (min-width: 768px) {
 
 .container {
-    max-width: 768px;
+    width: 768px;
     padding: 0 32px;
     margin: 0 auto;
 }
@@ -155,13 +159,14 @@
     max-width: 1440px;
     padding: 0 32px;
     margin: 0 auto;
-    position: relative;
+    
   }
 
   .hotel-details {
     padding-bottom: 60px;
-    
-  }
+      margin: 0 auto;
+      position: relative;
+    }
 
   .proposition-hotel-details {
     max-width: 362px;
@@ -173,7 +178,7 @@
     right: 0px;
     margin: 0;
     padding-top: 44px;
-    padding-left: 32px;
+    padding-right: 32px;
   }
 
   .button-hotel-details-list {

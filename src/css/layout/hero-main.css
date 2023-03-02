@@ -1,0 +1,198 @@
+.hero-hotel-main {
+  width: 375px;
+    margin: 0 auto;
+  padding-top: 40px;
+  padding-bottom: 64px;
+  padding: 451px 0px 38px 0px;
+    background: #121212 url(../../img/mob/1x/main/hero-main.jpg) 50% 40px no-repeat;
+    flex-grow: 1;
+    background-size: 335px;
+}
+@media (min-device-pixel-ratio: 2),
+    (min-resolution: 192dpi),
+    (min-resolution: 2dppx) {
+      .hero-hotel-main {
+        background: #121212 url(../../img/tablet/2x/main-2x/hero-main-2x.jpg) 50% 40px no-repeat;
+        flex-grow: 1;
+        background-size: 335px;
+}
+
+}
+
+.hero-title-main {
+  margin-top: -40px;
+  margin-bottom: 24px;
+  font-weight: 400;
+  font-size: 80px;
+    line-height: calc(80 / 80);
+  letter-spacing: -0.02em;
+  text-transform: uppercase;
+  text-align: center;
+  color: var(--main-modal-color);
+  
+}
+
+.hero-list-button-main {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 0px;
+  gap: 12px;
+  margin-bottom: 66px;
+}
+
+.hero-button-main {
+  box-sizing: border-box;
+  padding: 8px 18px;
+  border-radius: 32px;
+  line-height: calc(18 / 14);
+  letter-spacing: -0.02em;
+  text-transform: uppercase;
+  border: 0.8px solid var(--main-modal-color);
+    color: var(--main-modal-color);
+    max-width: 100%;
+}
+
+.hotel-hero-btn-main:is(:hover, :focus),
+.hero-button-main:is(:hover, :focus) {
+  background: var(--main-light-color);
+  color: var(--main-dark-color);
+}
+
+.hero-list-text-main {
+  width: 338px;
+  font-size: 14px;
+  line-height: calc(18 / 14);
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  display: flex;
+    flex-direction: column;
+    gap: 32;
+    color: var(--main-light-color);
+}
+
+.text-main-it {
+  font-style: italic;
+}
+
+.hero-item-text-main:not(:last-child) {
+  margin-bottom: 32px;
+}
+
+@media screen and (min-width: 768px) {
+  .hero-hotel-main {
+    width: 768px;
+    margin: 0 auto;
+    padding-top: 451px;
+    background: #121212 url(../../img/tablet/1x/main/hero-main.jpg) 50% 40px no-repeat;
+    flex-grow: 1;
+    background-size: 542px;
+  }
+
+@media (min-device-pixel-ratio: 2),
+(min-resolution: 192dpi),
+(min-resolution: 2dppx) {
+  .hero-hotel-main {
+    background: #121212 url(../../img/tablet/2x/main-2x/hero-main-2x.jpg) 50% 40px no-repeat;
+    flex-grow: 1;
+    background-size: 542px;
+  }
+}
+
+.hero-title-main {
+  margin-top: 0;
+  font-size: 150px;
+  line-height: calc(150 / 150);
+  letter-spacing: -0.02em;
+}
+
+.hero-cont-main {
+  margin-top: 32px;
+}
+
+.hero-button-main {
+  font-size: 14px;
+line-height: calc(14px/24px);
+}
+
+.hero-list-text-main {
+  margin-top: 76px;
+  width: 100%;
+  flex-direction: row;
+  gap: 32px;
+  padding: 0 32px 0 52px;
+}
+
+.hero-item-text-main {
+  margin-top: 0;
+}
+}
+
+@media screen and (min-width: 1440px) {
+  .hero-hotel-main {
+    position: relative;
+    z-index: -1;
+  }
+.hero-cont-main {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: space-between;
+}
+
+.hero-hotel-main {
+  width: 1440px;
+  margin: 0 auto;
+  padding-top: 274px;
+    padding-bottom: 48px;
+    background: #121212 url(../../img/desktop/1x/main/hero-main.jpg) 100% 0% no-repeat;
+      flex-grow: 1;
+      background-size: 542px 770px;
+    }
+    
+    @media (min-device-pixel-ratio: 2),
+    (min-resolution: 192dpi),
+    (min-resolution: 2dppx) {
+    
+      .hero-hotel-main {
+        background: #121212 url(../../img/desktop/2x/main-2x/hero-main-2x.jpg) 100% 0% no-repeat;
+        flex-grow: 1;
+        background-size: 542px 770px;
+        position: absolute;
+        top: 0;
+        right: 0;
+      }
+    
+    }
+    
+    .hero-title-main {
+      font-size: 180px;
+      line-height: calc(180 /180);
+      text-align: left;
+    }
+    
+    .hero-cont-main {
+      margin-top: 196px;
+      align-items: center;
+    }
+    
+    .hero-list-text-main {
+      margin-top: 0;
+      padding: 0;
+      width: 684px;
+}
+
+.hero-list-button-main {
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-right: 94px;
+}
+.hero-button-main {
+  font-size: 18px;
+line-height: calc(18px/24px);
+}
+
+.hero-item-text-main:not(:last-child) {
+  margin-bottom: 0;
+}
+}

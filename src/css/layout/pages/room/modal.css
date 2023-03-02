@@ -165,17 +165,11 @@
     cursor: pointer;
 }
 
-/* .modal-open a {
-    padding: 20px;
-    display: inline-block;
-    text-decoration: none;
-    background-color: #414b52;
-    margin: 10px;
-    color: #fff;
-    border-radius: 3px;
+.js-open-modal {
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
-
-*/
 
 .btn-info {
     display: flex;

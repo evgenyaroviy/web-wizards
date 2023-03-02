@@ -168,6 +168,7 @@
 .js-open-modal {
     display: flex;
     justify-content: center;
+    align-items: center;
 }
 
 .btn-info {

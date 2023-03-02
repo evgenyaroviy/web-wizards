@@ -52,9 +52,10 @@
   border: 0.8px solid var(--main-modal-color);
     color: var(--main-modal-color);
     max-width: 100%;
+  z-index: 5;
 }
 
-.hotel-hero-btn-main:is(:hover, :focus),
+/* .hotel-hero-btn-main:is(:hover, :focus), */
 .hero-button-main:is(:hover, :focus) {
   background: var(--main-light-color);
   color: var(--main-dark-color);
@@ -109,6 +110,7 @@
 
 .hero-cont-main {
   margin-top: 32px;
+  z-index: 5;
 }
 
 .hero-button-main {
@@ -132,7 +134,7 @@ line-height: calc(14px/24px);
 @media screen and (min-width: 1440px) {
   .hero-hotel-main {
     position: relative;
-    z-index: -1;
+    /* z-index: ; */
   }
 .hero-cont-main {
   display: flex;

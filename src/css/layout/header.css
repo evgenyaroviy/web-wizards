@@ -7,6 +7,7 @@
   border-bottom: 0.5px solid rgba(247, 247, 247, 0.2);
   width: 375px;
     margin: 0 auto;
+    z-index: 1;
   }
 
 .nav-list {
@@ -106,7 +107,7 @@
 .cont-mob-manu {
   position: fixed;
   top: 0;
-  z-index: 3;
+  z-index: 7;
   display: flex;
   height: 100%;
   background-color: #121212;
@@ -163,6 +164,7 @@
   width: 20px;
   height: 20px;
   stroke: #F7F7F7;
+  fill: transparent;
 
 }
 
@@ -215,6 +217,7 @@ transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
     width: 20px;
     height: 20px;
     stroke: #F7F7F7;
+    fill: transparent;
 
   }
 

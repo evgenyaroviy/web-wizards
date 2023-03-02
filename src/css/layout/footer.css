@@ -48,7 +48,7 @@ border-bottom: 0.5px solid rgba(18, 18, 18, 0.3);
     width: 16px;
     height: 16px;
     stroke: #121212;
-    fill: currentColor;
+    fill: transparent;
 }
 
 @media screen and (min-width: 768px) {

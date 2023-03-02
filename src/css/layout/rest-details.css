@@ -73,6 +73,10 @@
     margin: 0 auto;
   }
 
+  .rest-details {
+    margin-bottom: 0;
+  }
+
   .rest-details-content {
     margin-bottom: 80px;
     display: flex;
@@ -90,7 +94,7 @@
 
   .rest-details-button {
     font-size: 14px;
-    line-height: calc(24/14);
+    line-height: calc(24 / 14);
     padding: 8px 24px;
   }
 
@@ -110,9 +114,9 @@
       margin-bottom: 0;
     }
 
-.sectoin .rest-details {
-  margin-bottom: 0;
-}
+    .sectoin .rest-details {
+      margin-bottom: 0;
+    }
     .rest-details-content {
       margin-bottom: 125px;
       align-items: center;
@@ -136,7 +140,7 @@
 
     .rest-details-button {
       font-size: 18px;
-      line-height: calc(24/18);
+      line-height: calc(24 / 18);
       padding: 9px 24px;
     }
 

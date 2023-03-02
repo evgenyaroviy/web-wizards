@@ -3,7 +3,9 @@
 }
 
 .rest-details {
-  margin-bottom: 84px;
+  background-color: #f8f8f8;
+    padding-bottom: 84px;
+    margin-bottom: 0;
 }
 
 .container {
@@ -145,4 +147,7 @@
     width: 266px;
     height: 309px;
   }
+.rest-details {
+  margin-bottom: 0;
+}
 }

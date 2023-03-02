@@ -1,3 +1,6 @@
+.rest-details {
+  background-color: #f8f8f8;
+}
 .rest-details-content {
   margin-bottom: 32px;
 }
@@ -107,6 +110,9 @@
       margin-bottom: 0;
     }
 
+.sectoin .rest-details {
+  margin-bottom: 0;
+}
     .rest-details-content {
       margin-bottom: 37px;
       align-items: center;

@@ -1,9 +1,13 @@
 .hotel-details {
+  background-color: #f8f8f8;
+  
+  }
+  
+  .hotel-details .container {
   background-color: #121212;
   padding-top: 32px;
-  padding-bottom: 32px;
+    padding-bottom: 32px;
 }
-
 .title-hotel-details {
   font-weight: 500;
   font-size: 40px;
@@ -84,7 +88,7 @@
 @media screen and (min-width: 768px) {
 
 .container {
-    max-width: 768px;
+    width: 768px;
     padding: 0 32px;
     margin: 0 auto;
 }
@@ -160,7 +164,6 @@
 
   .hotel-details {
     padding-bottom: 60px;
-    width: 1440px;
       margin: 0 auto;
       position: relative;
     }

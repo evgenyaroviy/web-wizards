@@ -284,6 +284,9 @@
 
 
 @media screen and (min-width: 1440px) {
+.cont-mob-manu {
+                display: none;
+        }
 .header-revers {
         max-width: 1440px;
         width: 100%;

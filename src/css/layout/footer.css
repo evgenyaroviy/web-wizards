@@ -25,6 +25,12 @@ border-bottom: 0.5px solid rgba(18, 18, 18, 0.3);
     text-transform: uppercase;
     color: #121212;
     margin-bottom: 32px;
+    transform: translate(-50%, -50%) scale(1);
+        transition: transform 250ms linear, scale 250ms linear;
+    }
+    
+    .footer-logo:is(:hover, :focus) {
+        transform: translate(-50%, -50%) scale(1.2);
 }
 
 .footer-logo-text {
@@ -49,6 +55,23 @@ border-bottom: 0.5px solid rgba(18, 18, 18, 0.3);
     height: 16px;
     stroke: #121212;
     fill: transparent;
+    transform: translate(-50%, -50%) scale(1) translate(50%, 50%);
+        transition: transform 250ms linear, scale 250ms linear;
+    }
+    
+    .footer-svg:is(:hover, :focus) {
+        transform: translate(-50%, -50%) scale(1.4) translate(40%, 30%);
+        transition: transform 250ms linear, scale 250ms linear;
+    }
+    
+    .footer-menu-item {
+        transform: translate(-50%, -50%) scale(1) translate(50%, 50%);
+        transition: transform 250ms linear, scale 250ms linear;
+    }
+    
+    .footer-menu-item:is(:hover, :focus) {
+        transform: translate(-50%, -50%) scale(1.4) translate(40%, 30%);
+        transition: transform 250ms linear, scale 250ms linear;
 }
 
 @media screen and (min-width: 768px) {

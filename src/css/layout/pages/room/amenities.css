@@ -98,6 +98,7 @@
     border: 0.8px solid #F7F7F7;
     border-radius: 32px;
     background-color: transparent;
+    transition: color 250ms linear, background-color 250ms linear;
 }
 
 .amenities-btn:hover,

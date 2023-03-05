@@ -38,6 +38,7 @@
   text-transform: uppercase;
   padding: 8px 18px;
   margin-bottom: 40px;
+  transition: color 250ms linear, background-color 250ms linear;
 }
 
 .hero-room-btn:hover,

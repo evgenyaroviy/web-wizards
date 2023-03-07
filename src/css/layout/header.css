@@ -181,6 +181,15 @@ transform: translate(-50%, -50%) scale(1);
   margin-bottom: 32px;
 }
 
+.menu-item-mob {
+  transform: translate(-50%, -50%) scale(1) translate(50%, 50%);
+  transition: transform 250ms linear, scale 250ms linear;
+}
+
+.menu-item-mob:is(:hover, :focus) {
+  transform: translate(-50%, -50%) scale(1.4) translate(45%, 30%);
+  transition: transform 250ms linear, scale 250ms linear;
+}
 .menu-link {
   font-weight: 400;
   font-size: 18px;

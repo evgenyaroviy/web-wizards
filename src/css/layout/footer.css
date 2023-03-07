@@ -25,12 +25,12 @@ border-bottom: 0.5px solid rgba(18, 18, 18, 0.3);
     text-transform: uppercase;
     color: #121212;
     margin-bottom: 32px;
-    transform: translate(-50%, -50%) scale(1);
+    transform: translate(-50%, -50%) scale(1) translate(50%, 50%);
         transition: transform 250ms linear, scale 250ms linear;
     }
     
     .footer-logo:is(:hover, :focus) {
-        transform: translate(-50%, -50%) scale(1.2);
+        transform: translate(-50%, -50%) scale(1.2) translate(45%, 30%);
 }
 
 .footer-logo-text {
